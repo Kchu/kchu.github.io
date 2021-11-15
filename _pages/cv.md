@@ -37,7 +37,7 @@ Research Experiences
 ======
 * **Data-driven Intelligent Control** (Jul. 2021 -- Present)
 
-  * Working as a research assistant in the lab of Prof. Hong Cheng ([Google Scholar](https://scholar.google.com/citations?hl=en&user=-845MAcAAAAJ)). Cooperating with Dr. Zhinan Peng ([Google Scholar](https://scholar.google.com/citations?user=9AUL9JEAAAAJ&hl=en&oi=ao)) on theoretical research for data-driven, model-free adaptive optimal control design, which is based on **RL** theories and approximate/adaptive dynamic programming **ADP**. 
+  * Working as a research assistant in the lab of Prof. Hong Cheng ([Google Scholar](https://scholar.google.com/citations?hl=en&user=-845MAcAAAAJ)). Cooperating with Dr. Zhinan Peng ([Google Scholar](https://scholar.google.com/citations?user=9AUL9JEAAAAJ&hl=en&oi=ao)) on theoretical research for data-driven, model-free adaptive optimal control design, which is based on **RL** theories and approximate/adaptive dynamic programming (**ADP**). 
 
   * Recently, a **manuscript** related to proposed robust adaptive controller design is being revised for submission.
 
