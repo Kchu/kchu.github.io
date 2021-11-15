@@ -52,6 +52,17 @@ Research Experiences
 
   * Reproduced some algorithms, such as CURE ([Matlab](https://github.com/Kchu/CURE-cluster-matlab), [Python](https://github.com/Kchu/CURE-cluster-python)), ROCK ([Matlab](https://github.com/Kchu/ROCK-cluster-matlab)), and Chameleon ([Matlab](https://github.com/Kchu/Chameleon-cluster-matlab)).
   
+Selected Awards
+=====
+* Oct. 2020 - Graduate Scholarship of UESTC.
+* Sep. 2019 - Graduate Scholarship of UESTC.
+* Sep. 2018 - Graduate Scholarship of UESTC.
+* Jun. 2018 - Excellent Thesis for Bacholar’s Degree of UESTC.
+* Sep. 2017 - Undergraduate Scholarship of UESTC.
+* Nov. 2016 - Excellent Volunteer in 2th China College Students’ Entrepreneurship Competition.
+* Nov. 2016 - 1th Award in 5th China College Students’ GIS Application Skills Competition.
+* Sep. 2016 - LiQian Scholarship of UESTC.
+
 Extracurricular Activity
 ======
 * **Volunteer Works**
