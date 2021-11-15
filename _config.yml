@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Kun Chu"
+title                    : "Blog CK"
 title_separator          : "-"
 name                     : &name "Kun Chu"
 description              : &description "My Blog"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Kun Chu"
   avatar           : "self.png"
-  bio              : "Research Assistant in UESTC. Computer Science Master at UESTC. Looking for PhD positions!"
+  bio              : "Research Assistant in UESTC. | Computer Science Master at UESTC. | Looking for PhD positions!"
   location         : "Chengdu"
   employer         :
   pubmed           : 
