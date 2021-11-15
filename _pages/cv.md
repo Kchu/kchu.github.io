@@ -12,12 +12,13 @@ redirect_from:
 Education
 ======
 * M.S. in Computer Science & Technology, University of Electronic Science and Technology of China, Sep. 2018 – Jun. 2021
+
 * B.E. in Spatial Information & Digital Technology, University of Electronic Science and Technology of China, Sep. 2014 – Jun. 2018
 
 Research Interest
 ======
-* Reinforcement Learning (RL): Deep RL, Transfer/Lifelong RL.
-* Optimal Control: Model-free, data-driven optimal control methods based on RL theory & ADP.
+* **Reinforcement Learning** (RL): Deep RL, Transfer/Lifelong RL.
+* **Optimal Control**: Model-free, data-driven optimal control methods based on RL theory & ADP.
   
 Skills
 ======
@@ -30,37 +31,30 @@ Skills
 
 Publications
 ======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
+  1. Kun Chu, Xianchao Zhu, William Zhu*. Accelerating lifelong reinforcement learning via reshaping rewards[C]. 2021 IEEE International Conference on Systems, Man, and Cybernetics (SMC), 2021, Accepted.
   
 Research Experiences
 ======
-* Data-driven Intelligent Control   Jul. 2021 -- Present
+* Data-driven Intelligent Control (Jul. 2021 -- Present)
 
-Working as a research assistant in the lab of Prof. Hong Cheng (\href{https://scholar.google.com/citations?hl=en&user=-845MAcAAAAJ}{\emph{Google Scholar}}). Cooperating with Dr. Zhinan Peng (\href{https://scholar.google.com/citations?user=9AUL9JEAAAAJ&hl=en&oi=ao}{\emph{Google Scholar}}) on theoretical research for data-driven, model-free adaptive optimal control design, which is based on \textbf{RL} theories and approximate/adaptive dynamic programming (\textbf{ADP}). 
+  * Working as a research assistant in the lab of Prof. Hong Cheng ([Google Scholar](https://scholar.google.com/citations?hl=en&user=-845MAcAAAAJ)). Cooperating with Dr. Zhinan Peng ([Google Scholar](https://scholar.google.com/citations?user=9AUL9JEAAAAJ&hl=en&oi=ao)) on theoretical research for data-driven, model-free adaptive optimal control design, which is based on **RL** theories and approximate/adaptive dynamic programming **ADP**. 
 
-Recently, a \textbf{manuscript} related to proposed robust adaptive controller design is being revised for submission.
+  * Recently, a **manuscript** related to proposed robust adaptive controller design is being revised for submission.
 
-* Value-based Reinforcement Learning Dec. 2018 -- Jun. 2021
+* Value-based Reinforcement Learning (Dec. 2018 -- Jun. 2021)
 
-Conducted a relatively extensive survey on \textbf{Deep RL} (e.g., Distributional RL, Variants of DQN, Actor-Critic Methods) and \textbf{Transfer/Lifelong RL}. Mainly focused on value-based algorithms.
+  * Conducted a relatively extensive survey on **Deep RL** (e.g., Distributional RL, Variants of DQN, Actor-Critic Methods) and **Transfer/Lifelong RL**. Mainly focused on value-based algorithms.
 
-Reproduced QUOTA Algorithm in PyTorch (\href{https://github.com/Kchu/DeepRL\_PyTorch}{\textbf{\emph{Github}}}, \textbf{82} stars \& \textbf{12} forks). Codes for experiments in pre-print manuscript related to Lifelong RL are available on \href{https://github.com/Kchu/LifelongRL}{\textbf{\emph{Github}}}.
+  * Reproduced QUOTA Algorithm in PyTorch ([Github](https://github.com/Kchu/DeepRL\_PyTorch), **83** stars & **12** forks). Codes for experiments in pre-print manuscript related to Lifelong RL are available on [Github](https://github.com/Kchu/LifelongRL).
 
-* Unsupervised Learning Aug. 2018 -- Dec. 2018
+* Unsupervised Learning (Aug. 2018 -- Dec. 2018)
 
-Conducted a short survey on \textbf{Clustering}. Mainly focused on hierarchical clustering algorithms.
+  * Conducted a short survey on **Clustering**. Mainly focused on hierarchical clustering algorithms.
 
-Reproduced some algorithms, such as CURE (\href{https://github.com/Kchu/CURE-cluster-matlab}{\emph{Matlab}}, \href{https://github.com/Kchu/CURE-cluster-python}{\emph{Python}}), ROCK (\href{https://github.com/Kchu/ROCK-cluster-matlab}{\emph{Matlab}}), and Chameleon (\href{https://github.com/Kchu/Chameleon-cluster-matlab}{\emph{Matlab}}).
+  * Reproduced some algorithms, such as CURE ([Matlab](https://github.com/Kchu/CURE-cluster-matlab), [Python](https://github.com/Kchu/CURE-cluster-python)), ROCK ([Matlab](https://github.com/Kchu/ROCK-cluster-matlab)), and Chameleon ([Matlab](https://github.com/Kchu/Chameleon-cluster-matlab)).
   
 Extracurricular Activity
 ======
 * Volunteer Works Actively participated in volunteer activities. Founder of the Cedar Growth Association of UESTC. In corporation with Career Guidance Centre of UESTC and Shanghai Cedar Public Welfare Foundation.
+
 * Arts & Sports Published a Chinese Poem. A fan of table tennis, badminton and music (Rock & Roll, Folk, and Pop).
