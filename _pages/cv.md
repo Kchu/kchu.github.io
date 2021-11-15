@@ -45,7 +45,9 @@ Research Experiences
 
   * Conducted a relatively extensive survey on **Deep RL** (e.g., Distributional RL, Variants of DQN, Actor-Critic Methods) and **Transfer/Lifelong RL**. Mainly focused on value-based algorithms.
 
-  * Reproduced QUOTA Algorithm in PyTorch ([Github](https://github.com/Kchu/DeepRL\_PyTorch), **83** stars & **12** forks). Codes for experiments in pre-print manuscript related to Lifelong RL are available on [Github](https://github.com/Kchu/LifelongRL).
+  * Reproduced QUOTA Algorithm in PyTorch ([Github](https://github.com/Kchu/DeepRL\_PyTorch), **83** stars & **12** forks). 
+
+  * Codes for experiments in pre-print manuscript related to Lifelong RL are available on [Github](https://github.com/Kchu/LifelongRL).
 
 * **Unsupervised Learning** (Aug. 2018 -- Dec. 2018)
 
@@ -56,10 +58,12 @@ Research Experiences
 Extracurricular Activity
 ======
 * **Volunteer Works**
+
   * Actively participated in volunteer activities. 
   * Founder of the Cedar Growth Association of UESTC. 
   * In corporation with Career Guidance Centre of UESTC and Shanghai Cedar Public Welfare Foundation.
 
 * **Arts & Sports**
+
   * Published a Chinese Poem ([Link](https://kns.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFQ&dbname=CJFDLAST2019&filename=YJSZ201905019&v=MDk1NzExVDNxVHJXTTFGckNVUjdxZll1ZHRGeURrVkw3S1BDZllkTEc0SDlqTXFvOUViWVI4ZVgxTHV4WVM3RGg=)). 
   * A big fan of table tennis, badminton and music (Rock & Roll, Folk, and Pop).
