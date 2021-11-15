@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Kun Chu"
-  avatar           : "profile.png"
+  avatar           : "self.png"
   bio              : "Research Assistant in UESTC. Computer Science Master at UESTC. Works mainly on Machine Learning, Reinforcement Learning, Deep Learning, and Optimal Control. Looking for PhD positions!"
   location         : "Chengdu"
   employer         :
