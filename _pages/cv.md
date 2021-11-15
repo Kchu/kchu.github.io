@@ -11,19 +11,24 @@ redirect_from:
 
 Education
 ======
-* M.S. in Computer Science & Technology, University of Electronic Science and Technology of China (UESTC), Sep. 2018 – Jun. 2021
-  * **Thesis**: Transfer reinforcement learning algorithms based on knowledge representation [accessible online](https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CMFD&dbname=CMFDTEMP&filename=1021746738.nh&uniplatform=NZKPT&v=N2jQDYEsqnR74SWwxAdZ8RNj3A1Rt9N8bnZrtkJa%25mmd2Bzadkei5LPwl%25mmd2Be76C4Z7Wc8v)
+* M.S. in Computer Science & Technology, University of Electronic Science and Technology of China (UESTC)
+  Sep. 2018 – Jun. 2021
+
+  * **Thesis**: Transfer reinforcement learning algorithms based on knowledge representation ([Accessible Online](https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CMFD&dbname=CMFDTEMP&filename=1021746738.nh&uniplatform=NZKPT&v=N2jQDYEsqnR74SWwxAdZ8RNj3A1Rt9N8bnZrtkJa%25mmd2Bzadkei5LPwl%25mmd2Be76C4Z7Wc8v))
 
   * **Advisor** Prof. William Zhu (Highly-Cited Researcher in Computer Science, [Google Scholar](https://scholar.google.com/citations?hl=en&user=GIwXoWAAAAAJ))
 
-* B.E. in Spatial Information & Digital Technology, University of Electronic Science and Technology of China (UESTC), Sep. 2014 – Jun. 2018
+* B.E. in Spatial Information & Digital Technology, University of Electronic Science and Technology of China (UESTC)
+  Sep. 2014 – Jun. 2018
+
   * **Thesis**: Research on hyperspectral image classification algorithm based on low-rank model
 
-  * **Advisor** Prof. Fen Chen Google ([Scholar](https://scholar.google.com/citations?hl=en&user=U0VZ1IkAAAAJ))
+  * **Advisor** Prof. Fen Chen ([Google Scholar](https://scholar.google.com/citations?hl=en&user=U0VZ1IkAAAAJ))
 
 Research Interest
 ======
 * **Reinforcement Learning** (RL): Deep RL, Transfer/Lifelong RL.
+
 * **Optimal Control**: Model-free, data-driven optimal control methods based on RL theory & ADP.
   
 Skills
@@ -40,7 +45,7 @@ Research Experiences
 ======
 * **Data-driven Intelligent Control** (Jul. 2021 -- Present)
 
-  * Working as a research assistant in the lab of Prof. Hong Cheng ([Google Scholar](https://scholar.google.com/citations?hl=en&user=-845MAcAAAAJ)). Cooperating with Dr. Zhinan Peng ([Google Scholar](https://scholar.google.com/citations?user=9AUL9JEAAAAJ&hl=en&oi=ao)) on theoretical research for data-driven, model-free adaptive optimal control design, which is based on **RL** theories and approximate/adaptive dynamic programming (**ADP**). 
+  * Working as a research assistant in the lab of Prof. Hong Cheng ([Google Scholar](https://scholar.google.com/citations?hl=en&user=-845MAcAAAAJ)). Cooperating with Dr. Zhinan Peng ([Google Scholar](https://scholar.google.com/citations?user=9AUL9JEAAAAJ&hl=en&oi=ao)) on theoretical research for data-driven, model-free adaptive optimal control design, which is based on **RL** theories and approximate/adaptive dynamic programming (**ADP**)
 
   * Recently, a **manuscript** related to proposed robust adaptive controller design is being revised for submission.
 
@@ -79,5 +84,5 @@ Extracurricular Activity
 
 * **Arts & Sports**
 
-  * Published a Chinese Poem ([Link](https://kns.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFQ&dbname=CJFDLAST2019&filename=YJSZ201905019&v=MDk1NzExVDNxVHJXTTFGckNVUjdxZll1ZHRGeURrVkw3S1BDZllkTEc0SDlqTXFvOUViWVI4ZVgxTHV4WVM3RGg=)). 
+  * Published a Chinese Poem ([Accessible Online](https://kns.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFQ&dbname=CJFDLAST2019&filename=YJSZ201905019&v=MDk1NzExVDNxVHJXTTFGckNVUjdxZll1ZHRGeURrVkw3S1BDZllkTEc0SDlqTXFvOUViWVI4ZVgxTHV4WVM3RGg=)). 
   * A big fan of table tennis, badminton and music (Rock & Roll, Folk, and Pop).
