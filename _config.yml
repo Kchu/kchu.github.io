@@ -82,12 +82,11 @@ analytics:
 author:
   name             : "Kun Chu"
   avatar           : "profile.png"
-  bio              : "Research Assistant in UESTC. Computer Science Master at UESTC. 
-Main Research:Reinforcement Learning, Robotics and Optimal Control. Looking for PhD positions!"
+  bio              : "Research Assistant in UESTC. Computer Science Master at UESTC. Works mainly on Machine Learning, Reinforcement Learning, Deep Learning, and Optimal Control. Looking for PhD positions!"
   location         : "Chengdu"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : ""
+  pubmed           : 
+  googlescholar    : 
   email            : "kun_chu@outlook.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :  
@@ -102,8 +101,8 @@ Main Research:Reinforcement Learning, Robotics and Optimal Control. Looking for 
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
-  lastfm           :
-  linkedin         :
+  lastfm           : 
+  linkedin         : "https://www.linkedin.com/in/kunchu/"
   orcid            : 
   pinterest        :
   soundcloud       :
