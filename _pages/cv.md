@@ -12,8 +12,14 @@ redirect_from:
 Education
 ======
 * M.S. in Computer Science & Technology, University of Electronic Science and Technology of China (UESTC), Sep. 2018 – Jun. 2021
+  * **Thesis**: Transfer reinforcement learning algorithms based on knowledge representation [accessible online](https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CMFD&dbname=CMFDTEMP&filename=1021746738.nh&uniplatform=NZKPT&v=N2jQDYEsqnR74SWwxAdZ8RNj3A1Rt9N8bnZrtkJa%25mmd2Bzadkei5LPwl%25mmd2Be76C4Z7Wc8v)
+
+  * **Advisor** Prof. William Zhu (Highly-Cited Researcher in Computer Science, [Google Scholar](https://scholar.google.com/citations?hl=en&user=GIwXoWAAAAAJ))
 
 * B.E. in Spatial Information & Digital Technology, University of Electronic Science and Technology of China (UESTC), Sep. 2014 – Jun. 2018
+  * **Thesis**: Research on hyperspectral image classification algorithm based on low-rank model
+
+  * **Advisor** Prof. Fen Chen Google ([Scholar](https://scholar.google.com/citations?hl=en&user=U0VZ1IkAAAAJ))
 
 Research Interest
 ======
