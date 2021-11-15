@@ -14,3 +14,5 @@ author_profile: true
 {% for post in site.publications reversed %}
   {% include archive-single.html %}
 {% endfor %}
+
+**Kun Chu**, Xianchao Zhu, William Zhu*. **Accelerating lifelong reinforcement learning via reshaping rewards[C]**. 2021 IEEE International Conference on Systems, Man, and Cybernetics (SMC), 2021, Accepted.
