@@ -29,9 +29,6 @@ Skills
 * Solid skills in mathematics, statistics, and data analysis.
 * Event planning and organising skills.
 
-Publications
-======
-  1. **Kun Chu**, Xianchao Zhu, William Zhu*. **Accelerating lifelong reinforcement learning via reshaping rewards[C]**. 2021 IEEE International Conference on Systems, Man, and Cybernetics (SMC), 2021, Accepted.
   
 Research Experiences
 ======
