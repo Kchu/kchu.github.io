@@ -80,7 +80,7 @@ Extracurricular Activity
 ======
 * **Volunteer Works**
 
-  * Actively participated in volunteer activities. 
+  * Actively participate in public welfare activities of the university and society. 
   * Founder of the Cedar Growth Association of UESTC. 
   * In corporation with Career Guidance Centre of UESTC and Shanghai Cedar Public Welfare Foundation.
 
