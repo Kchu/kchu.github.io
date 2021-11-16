@@ -11,25 +11,27 @@ redirect_from:
 
 Education
 ======
-* M.S. in Computer Science & Technology, University of Electronic Science and Technology of China (UESTC)
-  Sep. 2018 – Jun. 2021
+* **University of Electronic Science and Technology of China (UESTC)** 
+
+  M.S. in Computer Science & Technology, Sep. 2018 – Jun. 2021
 
   * **Thesis**: Transfer reinforcement learning algorithms based on knowledge representation ([Accessible Online](https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CMFD&dbname=CMFDTEMP&filename=1021746738.nh&uniplatform=NZKPT&v=N2jQDYEsqnR74SWwxAdZ8RNj3A1Rt9N8bnZrtkJa%25mmd2Bzadkei5LPwl%25mmd2Be76C4Z7Wc8v))
 
-  * **Advisor** Prof. William Zhu (Highly-Cited Researcher in Computer Science, [Google Scholar](https://scholar.google.com/citations?hl=en&user=GIwXoWAAAAAJ))
+  * **Advisor**: Prof. William Zhu (Highly-Cited Researcher in Computer Science, [Google Scholar](https://scholar.google.com/citations?hl=en&user=GIwXoWAAAAAJ))
 
-* B.E. in Spatial Information & Digital Technology, University of Electronic Science and Technology of China (UESTC)
-  Sep. 2014 – Jun. 2018
+* **University of Electronic Science and Technology of China (UESTC)**
+  
+  B.E. in Spatial Information & Digital Technology,  Sep. 2014 – Jun. 2018
 
   * **Thesis**: Research on hyperspectral image classification algorithm based on low-rank model
 
-  * **Advisor** Prof. Fen Chen ([Google Scholar](https://scholar.google.com/citations?hl=en&user=U0VZ1IkAAAAJ))
+  * **Advisor**: Prof. Fen Chen ([Google Scholar](https://scholar.google.com/citations?hl=en&user=U0VZ1IkAAAAJ))
 
 Research Interest
 ======
-* **Reinforcement Learning** (RL): Deep RL, Transfer/Lifelong RL.
+* **Reinforcement Learning** (RL): Mainly focus on RL in the real world which combines with emerging theories/technologies, including Deep/Transfer/Lifelong/Representation Learning.
 
-* **Optimal Control**: Model-free, data-driven optimal control methods based on RL theory & ADP.
+* **Optimal Control**: Model-free, data-driven optimal control methods based on RL theory & approximate/adaptive dynamic programming (ADP).
   
 Skills
 ======
@@ -45,7 +47,7 @@ Research Experiences
 ======
 * **Data-driven Intelligent Control** (Jul. 2021 -- Present)
 
-  * Working as a research assistant in the lab of Prof. Hong Cheng ([Google Scholar](https://scholar.google.com/citations?hl=en&user=-845MAcAAAAJ)). Cooperating with Dr. Zhinan Peng ([Google Scholar](https://scholar.google.com/citations?user=9AUL9JEAAAAJ&hl=en&oi=ao)) on theoretical research for data-driven, model-free adaptive optimal control design, which is based on **RL** theories and approximate/adaptive dynamic programming (**ADP**)
+  * Working as a research assistant at [the Center for Robotics of UESTC](http://www.uestcrobot.net/) (directed by Prof. Hong Cheng ([Google Scholar](https://scholar.google.com/citations?hl=en&user=-845MAcAAAAJ))). Cooperating with Dr. Zhinan Peng ([Google Scholar](https://scholar.google.com/citations?user=9AUL9JEAAAAJ&hl=en&oi=ao)) on theoretical research for data-driven, model-free adaptive optimal control design, which is based on RL theories and ADP.
 
   * Recently, a **manuscript** related to proposed robust adaptive controller design is being revised for submission.
 
@@ -53,7 +55,7 @@ Research Experiences
 
   * Conducted a relatively extensive survey on **Deep RL** (e.g., Distributional RL, Variants of DQN, Actor-Critic Methods) and **Transfer/Lifelong RL**. Mainly focused on value-based algorithms.
 
-  * Reproduced QUOTA Algorithm in PyTorch ([Github](https://github.com/Kchu/DeepRL\_PyTorch), **83** stars & **12** forks). 
+  * Reproduced QUOTA Algorithm in PyTorch ([Github](https://github.com/Kchu/DeepRL\_PyTorch), **84** stars & **12** forks). 
 
   * Codes for experiments in pre-print manuscript related to Lifelong RL are available on [Github](https://github.com/Kchu/LifelongRL).
 
