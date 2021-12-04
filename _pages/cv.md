@@ -31,7 +31,7 @@ Research Interest
 ======
 * **Reinforcement Learning** (RL): Mainly focus on RL in the real world which combines with emerging theories/technologies, including Deep/Transfer/Lifelong/Representation Learning.
 
-* **Optimal Control**: Model-free, data-driven optimal control methods based on RL theory & approximate/adaptive dynamic programming (ADP).
+* **Robotics, Optimal Control**: Robotic Learning; Model-free, data-driven optimal control methods based on RL theory & approximate/adaptive dynamic programming (ADP).
   
 Skills
 ======
