@@ -40,7 +40,7 @@ Skills
 * Solid skills on deep learning frameworks, including PyTorch and Tensorflow. 
 * Solid artistic and academic writing skills in MS Word and Latex. 
 * Solid skills in mathematics, statistics, and data analysis.
-* Event planning and organising skills.
+* Event planning and organizing skills.
 
   
 Research Experiences
@@ -70,10 +70,10 @@ Selected Awards
 * Oct. 2020 - Graduate Scholarship of UESTC.
 * Sep. 2019 - Graduate Scholarship of UESTC.
 * Sep. 2018 - Graduate Scholarship of UESTC.
-* Jun. 2018 - Excellent Thesis for Bacholar’s Degree of UESTC.
+* Jun. 2018 - Excellent Thesis for Bachelor’s Degree of UESTC.
 * Sep. 2017 - Undergraduate Scholarship of UESTC.
-* Nov. 2016 - Excellent Volunteer in 2th China College Students’ Entrepreneurship Competition.
-* Nov. 2016 - 1th Award in 5th China College Students’ GIS Application Skills Competition.
+* Nov. 2016 - Excellent Volunteer in 2nd China College Students’ Entrepreneurship Competition.
+* Nov. 2016 - 1st Award in 5th China College Students’ GIS Application Skills Competition.
 * Sep. 2016 - LiQian Scholarship of UESTC.
 
 Extracurricular Activity
