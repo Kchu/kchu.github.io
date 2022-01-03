@@ -55,7 +55,7 @@ Research Experiences
 
   * Conducted a relatively extensive survey on **Deep RL** (e.g., Distributional RL, Variants of DQN, Actor-Critic Methods) and **Transfer/Lifelong RL**. Mainly focused on value-based algorithms.
 
-  * Reproduced QUOTA Algorithm in PyTorch ([Github](https://github.com/Kchu/DeepRL\_PyTorch), **94** stars & **15** forks). 
+  * Reproduced QUOTA Algorithm in PyTorch ([Github](https://github.com/Kchu/DeepRL\_PyTorch), **101** stars & **15** forks). 
 
   * Codes for experiments in pre-print manuscript related to Lifelong RL are available on [Github](https://github.com/Kchu/LifelongRL).
 
