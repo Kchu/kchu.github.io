@@ -86,7 +86,7 @@ author:
   location         : "Chengdu"
   employer         :
   pubmed           : 
-  googlescholar    : 
+  googlescholar    : "https://scholar.google.com/citations?user=CwtjvhUAAAAJ&hl=en&oi=sra"
   email            : "kun_chu@outlook.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :  
