@@ -17,4 +17,4 @@ author_profile: true
 
 **Kun Chu**, Xianchao Zhu, William Zhu*. **Accelerating lifelong reinforcement learning via reshaping rewards**, 2021 IEEE International Conference on Systems, Man, and Cybernetics (SMC), 2021, pp. 619-624, doi: 10.1109/SMC52423.2021.9659064. [[Paper](https://ieeexplore.ieee.org/document/9659064)] [[Code](https://github.com/Kchu/LifelongRL)]
 
-**Kun Chu**, Zhinan Peng, Zhiquan Zhang, Rui Huang, Kecheng Shi, Hong Cheng. **Optimal Event-Triggered $H_{\infty}$ Control for Nonlinear Systems with Completely Unknown Dynamics**, The 41st Chinese Control Conference (CCC 2022), under review.
+**Kun Chu**, Zhinan Peng, Zhiquan Zhang, Rui Huang, Kecheng Shi, Hong Cheng. **Optimal Event-Triggered $H_{\infty}$ Control for Nonlinear Systems with Completely Unknown Dynamics**, The 41st Chinese Control Conference (CCC), under review.
