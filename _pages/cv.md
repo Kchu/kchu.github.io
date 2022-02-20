@@ -49,7 +49,7 @@ Research Experiences
 
   * Working as a research assistant at [the Center for Robotics of UESTC](http://www.uestcrobot.net/) (directed by Prof. Hong Cheng ([Google Scholar](https://scholar.google.com/citations?hl=en&user=-845MAcAAAAJ))). Cooperating with Dr. Zhinan Peng ([Google Scholar](https://scholar.google.com/citations?user=9AUL9JEAAAAJ&hl=en&oi=ao)) on theoretical research for data-driven, model-free adaptive optimal control design, which is based on RL theories and ADP.
 
-  * Recently, a **manuscript** related to proposed robust adaptive controller design is being revised for submission.
+  * Recently, a **manuscript** related to proposed robust adaptive controller is submitted to [CCC 2022](https://ccc2022-en.ustc.edu.cn/).
 
 * **Value-based Reinforcement Learning** (Dec. 2018 -- Jun. 2021)
 
