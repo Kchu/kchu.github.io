@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Kun Chu"
   avatar           : "self.png"
-  bio              : "PhD student at University of Hamburg. CS Master 21' UESTC. Main focus:Deep/Reinforcement/Lifelong Learning, Robotics."
+  bio              : "PhD student in CS at University of Hamburg. Main focus: Robot Learning, Reinforcement Learning."
   location         : "Hamburg, Germany"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=CwtjvhUAAAAJ&hl=en&oi=sra"
-  email            : "kun_chu@outlook.com"
+  email            : "kun.chu@uni-hamburg.de"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :  
   bitbucket        :
