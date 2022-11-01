@@ -31,21 +31,21 @@ Research Interest
 ======
 * **Reinforcement Learning** (RL): Mainly focus on RL in the real world which combines with emerging theories/technologies, including Deep/Transfer/Lifelong/Representation Learning.
 
-* **Robotics, Optimal Control**: Robot Learning; Model-free, data-driven optimal control methods based on RL theory & approximate/adaptive dynamic programming (ADP).
+* **Robot Learning**
   
-Skills
+<!-- Skills
 ======
 * Proficiency in programming, including Python, Matlab, and C/C++. 
 * Proficient English application skills (IELTS Academic 6.5)
 * Solid skills on deep learning frameworks, including PyTorch and Tensorflow. 
 * Solid artistic and academic writing skills in MS Word and Latex. 
 * Solid skills in mathematics, statistics, and data analysis.
-* Event planning and organizing skills.
+* Event planning and organizing skills. -->
 
   
-Research Experiences
+<!-- Research Experiences
 ======
-* **Data-driven Intelligent Control** (Jul. 2021 -- Present)
+* **Data-driven Intelligent Control** (Jul. 2021 -- Jun. 2022)
 
   * Working as a research assistant at [the Center for Robotics of UESTC](http://www.uestcrobot.net/) (directed by Prof. Hong Cheng ([Google Scholar](https://scholar.google.com/citations?hl=en&user=-845MAcAAAAJ))). Cooperating with Dr. Zhinan Peng ([Google Scholar](https://scholar.google.com/citations?user=9AUL9JEAAAAJ&hl=en&oi=ao)) on theoretical research for data-driven, model-free adaptive optimal control design, which is based on RL theories and ADP.
 
@@ -63,7 +63,7 @@ Research Experiences
 
   * Conducted a short survey on **Clustering**. Mainly focused on hierarchical clustering algorithms.
 
-  * Reproduced some algorithms, such as CURE ([Matlab](https://github.com/Kchu/CURE-cluster-matlab), [Python](https://github.com/Kchu/CURE-cluster-python)), ROCK ([Matlab](https://github.com/Kchu/ROCK-cluster-matlab)), and Chameleon ([Matlab](https://github.com/Kchu/Chameleon-cluster-matlab)).
+  * Reproduced some algorithms, such as CURE ([Matlab](https://github.com/Kchu/CURE-cluster-matlab), [Python](https://github.com/Kchu/CURE-cluster-python)), ROCK ([Matlab](https://github.com/Kchu/ROCK-cluster-matlab)), and Chameleon ([Matlab](https://github.com/Kchu/Chameleon-cluster-matlab)). -->
   
 Selected Awards
 =====
