@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Kun Chu"
   avatar           : "self.png"
-  bio              : "PhD student in CS at University of Hamburg. Main focus: Robot Learning, Reinforcement Learning."
+  # bio              : "PhD student in CS at University of Hamburg. Main focus: Robot Learning, Reinforcement Learning."
   location         : "Hamburg, Germany"
   employer         :
   pubmed           : 
