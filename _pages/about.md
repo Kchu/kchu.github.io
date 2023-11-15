@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Hi there! I am a 2nd-year CS PhD student at the University of Hamburg (UHH), affiliated with the [Knowledge Technology (WTM) group](https://www.inf.uni-hamburg.de/en/inst/ab/wtm.html) and advised by [Prof. Stefan Wermter](https://www.inf.uni-hamburg.de/en/inst/ab/wtm/people/wermter.html). Previously, I received my master's degree in Computer Science and Technology at the University of Electronic Science and Technology of China (UESTC), advised by [Prof. William Zhu](https://scholar.google.com/citations?hl=zh-CN&user=GIwXoWAAAAAJ). Before that, I was an undergrad in Spatial Information and Digital Technology at UESTC, advised by [Prof. Fen Chen](https://scholar.google.com/citations?hl=zh-CN&user=U0VZ1IkAAAAJ). 
+Hi there! I am a 2nd-year CS PhD student at the University of Hamburg (UHH), affiliated with the [Knowledge Technology (WTM)](https://www.inf.uni-hamburg.de/en/inst/ab/wtm.html) group and advised by [Prof. Stefan Wermter](https://www.inf.uni-hamburg.de/en/inst/ab/wtm/people/wermter.html). Previously, I received my master's degree in Computer Science and Technology at the University of Electronic Science and Technology of China (UESTC), advised by [Prof. William Zhu](https://scholar.google.com/citations?hl=zh-CN&user=GIwXoWAAAAAJ). Before that, I was an undergrad in Spatial Information and Digital Technology at UESTC, advised by [Prof. Fen Chen](https://scholar.google.com/citations?hl=zh-CN&user=U0VZ1IkAAAAJ). 
 
 I have a broad interest in Reinforcement Learning, Large Language Models (LLMs), and Robotics. My current research interest is how  instruction and feedback enable reinforcement learning to more efficiently address robotic questions.
  
