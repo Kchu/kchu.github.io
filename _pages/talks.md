@@ -17,7 +17,7 @@ Education
 
   * **Thesis**: Transfer reinforcement learning algorithms based on knowledge representation ([Accessible Online](https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CMFD&dbname=CMFDTEMP&filename=1021746738.nh&uniplatform=NZKPT&v=N2jQDYEsqnR74SWwxAdZ8RNj3A1Rt9N8bnZrtkJa%25mmd2Bzadkei5LPwl%25mmd2Be76C4Z7Wc8v))
 
-  * **Advisor**: Prof. William Zhu (Highly-Cited Researcher in Computer Science, [Google Scholar](https://scholar.google.com/citations?hl=en&user=GIwXoWAAAAAJ))
+  * **Advisor**: Prof. William Zhu ([Google Scholar](https://scholar.google.com/citations?hl=en&user=GIwXoWAAAAAJ))
 
 * **University of Electronic Science and Technology of China (UESTC)**
   
