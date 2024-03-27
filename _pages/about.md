@@ -17,6 +17,8 @@ I have a broad interest in Reinforcement Learning, Large Language Models (LLMs),
 
 [2024.02] Our paper **Enhancing Zero-Shot Chain-of-Thought Reasoning in Large Language Models through Logic** has been accepted at [COLING 2024](https://lrec-coling-2024.org/).
 
+[2023.11] Our paper **Accelerating Reinforcement Learning of Robotic Manipulations via Feedback from Large Language Modelspdf icon** has been accepted for oral presentation at the 7th Conference on Robot Learning (CoRL 2023) [Workshop on Bridging the Gap between Cognitive Science and Robot Learning in the Real World: Progresses and New Directions](https://yantianzha.github.io/crl.github.io/)
+
 <!-- I mainly engaged in Deep Reinforcement Learning (RL) and Transfer/Lifelong RL during my master’s study. Recently, our manuscript about Lifelong RL is accepted by the 2021 IEEE International Conference on Systems, Man, and Cybernetics (SMC). Currently, I am engaged in the theoretical research for non-model-based, data-driven adaptive optimal control design, which is based on RL theory and ADP. Compared to traditional control methods, learning-based control methods have been attracted extensive attention and can be widely used in practical applications such as robotics and unmanned vehicles. -->
  
 <!-- During my studying periods, I have proficiency in programming (Python, Matlab, and C/C++) and Deep Learning frameworks (PyTorch). I reproduced several Deep RL algorithms with PyTorch and Clustering algorithms with Python/Matlab. While practice is driven by theory, I believe problems in practical applications, such as robotics, and unmanned driving, will promote the vigorous development of theory. -->
