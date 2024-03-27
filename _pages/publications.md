@@ -21,4 +21,4 @@ Xufeng Zhao, Mengdi Li, Wenhao Lu, Cornelius Weber, Jae Hee Lee, **Kun Chu**, St
 
 **Kun Chu**, Zhinan Peng*, Zhiquan Zhang, Rui Huang, Kecheng Shi, Hong Cheng. **Optimal Event-Triggered $H_{\infty}$ Control for Nonlinear Systems with Completely Unknown Dynamics**, 2022 41st Chinese Control Conference (CCC), 2022, pp. 2236-2241, doi: 10.23919/CCC55666.2022.9902398. [[Paper](https://ieeexplore.ieee.org/abstract/document/9902398)]
 
-**Kun Chu**, Xianchao Zhu, William Zhu*. **Accelerating lifelong reinforcement learning via reshaping rewards**, 2021 IEEE International Conference on Systems, Man, and Cybernetics (SMC), 2021, pp. 619-624, doi: 10.1109/SMC52423.2021.9659064. [[Paper](https://ieeexplore.ieee.org/document/9659064)] [[Code](https://github.com/Kchu/LifelongRL)]
+**Kun Chu**, Xianchao Zhu, William Zhu*. **Accelerating Lifelong Reinforcement Learning via Reshaping Rewards**, 2021 IEEE International Conference on Systems, Man, and Cybernetics (SMC), 2021, pp. 619-624, doi: 10.1109/SMC52423.2021.9659064. [[Paper](https://ieeexplore.ieee.org/document/9659064)] [[Code](https://github.com/Kchu/LifelongRL)]

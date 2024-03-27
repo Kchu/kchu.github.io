@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-2nd-year PhD student in Computer Science, University of Hamburg, [Knowledge Technology (WTM)](https://www.inf.uni-hamburg.de/en/inst/ab/wtm.html) group, advised by [Prof. Stefan Wermter](https://www.inf.uni-hamburg.de/en/inst/ab/wtm/people/wermter.html), at present.
+2nd-year PhD student in Computer Science, University of Hamburg, [Knowledge Technology (WTM)](https://www.inf.uni-hamburg.de/en/inst/ab/wtm.html) group, advised by [Prof. Stefan Wermter](https://www.inf.uni-hamburg.de/en/inst/ab/wtm/people/wermter.html).
 
 M.Sc in Computer Science and Technology, [University of Electronic Science and Technology of China](https://en.uestc.edu.cn/), advised by [Prof. William Zhu](https://scholar.google.com/citations?hl=zh-CN&user=GIwXoWAAAAAJ), 2018-2021.
 
