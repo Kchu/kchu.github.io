@@ -7,15 +7,15 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Hi there! 
-
-2nd-year CS PhD student, University of Hamburg (UHH), [Knowledge Technology (WTM)](https://www.inf.uni-hamburg.de/en/inst/ab/wtm.html) group, advised by [Prof. Stefan Wermter](https://www.inf.uni-hamburg.de/en/inst/ab/wtm/people/wermter.html).
+2nd-year PhD student in Computer Science, University of Hamburg (UHH), [Knowledge Technology (WTM)](https://www.inf.uni-hamburg.de/en/inst/ab/wtm.html) group, advised by [Prof. Stefan Wermter](https://www.inf.uni-hamburg.de/en/inst/ab/wtm/people/wermter.html), at present.
 
 M.Sc in Computer Science and Technology, [University of Electronic Science and Technology of China](https://en.uestc.edu.cn/), advised by [Prof. William Zhu](https://scholar.google.com/citations?hl=zh-CN&user=GIwXoWAAAAAJ), 2018-2021.
 
 B.E. in Spatial Information and Digital Technology, [University of Electronic Science and Technology of China](https://en.uestc.edu.cn/), advised by [Prof. Fen Chen](https://scholar.google.com/citations?hl=zh-CN&user=U0VZ1IkAAAAJ), 2014-2018.
 
-I have a broad interest in Reinforcement Learning, Large Language Models (LLMs), and Robotics. My current research interest is how to utilize the guidance and feedback from LLMs to make RL agents more effeient in solving robotics problems.
+I have a broad interest in Reinforcement Learning, Large Language Models (LLMs), and Robotics, including 1). How to make RL learn more efficiently for humanoid robots in bimanual tasks; 2). How to employ LLMs in complex long-horizon robotic tasks; 3) How to utilize the guidance and feedback from LLMs to make RL agents more efficient in solving robotics tasks, etc.
+
+The Future of Embodied Intelligence is Now.
 
 ## What's New
 
