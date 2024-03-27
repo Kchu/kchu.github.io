@@ -13,7 +13,7 @@ M.Sc in Computer Science and Technology, [University of Electronic Science and T
 
 B.E. in Spatial Information and Digital Technology, [University of Electronic Science and Technology of China](https://en.uestc.edu.cn/), advised by [Prof. Fen Chen](https://scholar.google.com/citations?hl=zh-CN&user=U0VZ1IkAAAAJ), 2014-2018.
 
-I have a broad interest in Reinforcement Learning, Large Language Models (LLMs), and Robotics, including 1). How to make RL learn more efficiently for humanoid robots in bimanual tasks; 2). How to employ LLMs in complex long-horizon robotic tasks; 3) How to utilize the guidance and feedback from LLMs to make RL agents more efficient in solving robotics tasks, etc.
+I have a broad interest in Reinforcement Learning, Large Language Models (LLMs), and Robotics, including 1). How to utilize LLMs to enable RL agents learn more efficiently in (bimanual) robotic tasks; 2). How to employ LLMs in long-horizon robotic tasks; 3) How to deploy learning models (foundation models, RL models) in humanoid robots for everyday tasks in real world, etc.
 
 The Future of Embodied Intelligence is Now.
 
