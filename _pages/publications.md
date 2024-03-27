@@ -15,7 +15,7 @@ author_profile: true
   {% include archive-single.html %}
 {% endfor %}
 
-Xufeng Zhao, Mengdi Li, Wenhao Lu, Cornelius Weber, Jae Hee Lee, **Kun Chu**, Stefan Wermter. **Enhancing Zero-Shot Chain-of-Thought Reasoning in Large Language Models through Logic**, The 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation. [[Paper](https://arxiv.org/abs/2309.13339)]
+Xufeng Zhao, Mengdi Li, Wenhao Lu, Cornelius Weber, Jae Hee Lee, **Kun Chu**, Stefan Wermter. **Enhancing Zero-Shot Chain-of-Thought Reasoning in Large Language Models through Logic**, The 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (COLING 2024). [[Paper](https://arxiv.org/abs/2309.13339)]
 
 **Kun Chu**, Xufeng Zhao, Cornelius Weber, Mengdi Li, Stefan Wermter. **Accelerating Reinforcement Learning of Robotic Manipulations via Feedback from Large Language Models**, CoRL 2023 Workshop (Oral), arXiv preprint arXiv:2311.02379 (2023). [[Paper](https://openreview.net/forum?id=MBeeqmD8Zk)]
 
