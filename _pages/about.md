@@ -13,7 +13,8 @@ I have a broad interest in Reinforcement Learning, Large Language Models (LLMs),
 
 **##News##**
 
-[2024.02] I am glad to be served as technical committee member of the [Workshop on Human-aligned Reinforcement Learning for Autonomous Agents and Robots](https://harlworkshop.github.io/index.html)
+[2024.02] I am glad to be served as technical committee member of the 2024 IEEE International Conference on
+Robotics and Automation (ICRA 2024) [Workshop on Human-aligned Reinforcement Learning for Autonomous Agents and Robots](https://harlworkshop.github.io/index.html)
 
 [2024.02] Our paper **Enhancing Zero-Shot Chain-of-Thought Reasoning in Large Language Models through Logic** has been accepted at [COLING 2024](https://lrec-coling-2024.org/).
 
