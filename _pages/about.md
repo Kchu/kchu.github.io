@@ -11,7 +11,7 @@ Hi there! I am a 2nd-year CS PhD student at the University of Hamburg (UHH), aff
 
 I have a broad interest in Reinforcement Learning, Large Language Models (LLMs), and Robotics. My current research interest is how to utilize the guidance and feedback from LLMs to make RL agents more effeient in solving robotics problems.
 
-**##News##**
+## What's New
 
 [2024.02] I am glad to be served as technical committee member of the 2024 IEEE International Conference on
 Robotics and Automation (ICRA 2024) [Workshop on Human-aligned Reinforcement Learning for Autonomous Agents and Robots](https://harlworkshop.github.io/index.html)
