@@ -19,7 +19,7 @@ The Future of Embodied Intelligence is Now.
 
 ## What's New
 
-[2024.03] The project website of [LABOR Agent: Large Language Models for Orchestrating Bimanual Robots](https://labor-agent.github.io/) is released! Paper in arxiv vesion and open-sourced codes are coming soon.
+[2024.03] The project website of [LABOR Agent: Large Language Models for Orchestrating Bimanual Robots](https://labor-agent.github.io/) is released! Paper in arxiv version can be found at [here](https://arxiv.org/abs/2404.02018)
 
 [2024.02] I am glad to be served as technical committee member of the 2024 IEEE International Conference on
 Robotics and Automation (ICRA 2024) [Workshop on Human-aligned Reinforcement Learning for Autonomous Agents and Robots](https://harlworkshop.github.io/index.html)
