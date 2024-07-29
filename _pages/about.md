@@ -19,13 +19,15 @@ The Future of Embodied Intelligence is Now.
 
 ## What's New
 
-[2024.03] The project website of [LABOR Agent: Large Language Models for Orchestrating Bimanual Robots](https://labor-agent.github.io/) is released! Paper in arxiv version can be found at [here](https://arxiv.org/abs/2404.02018)
+[2024.07] Our application to [Researcher Access Program of OpenAI](https://openai.com/form/researcher-access-program/) has been accepted and we have been awarded 5000 USD in API credits!
+
+[2024.03] The project website of [LABOR Agent: Large Language Models for Orchestrating Bimanual Robots](https://labor-agent.github.io/) is released! Paper in arxiv version can be found at [here](https://arxiv.org/abs/2404.02018).
 
 [2024.02] I am glad to be served as technical committee member of the 2024 IEEE International Conference on
-Robotics and Automation (ICRA 2024) [Workshop on Human-aligned Reinforcement Learning for Autonomous Agents and Robots](https://harlworkshop.github.io/index.html)
+Robotics and Automation (ICRA 2024) [Workshop on Human-aligned Reinforcement Learning for Autonomous Agents and Robots](https://harlworkshop.github.io/index.html).
 
 [2024.02] Our paper **Enhancing Zero-Shot Chain-of-Thought Reasoning in Large Language Models through Logic** has been accepted at [COLING 2024](https://lrec-coling-2024.org/).
 
-[2023.11] Our paper **Accelerating Reinforcement Learning of Robotic Manipulations via Feedback from Large Language Models** has been accepted as oral presentation at the 7th Conference on Robot Learning (CoRL 2023) [Workshop on Bridging the Gap between Cognitive Science and Robot Learning in the Real World: Progresses and New Directions](https://yantianzha.github.io/crl.github.io/)
+[2023.11] Our paper **Accelerating Reinforcement Learning of Robotic Manipulations via Feedback from Large Language Models** has been accepted as oral presentation at the 7th Conference on Robot Learning (CoRL 2023) [Workshop on Bridging the Gap between Cognitive Science and Robot Learning in the Real World: Progresses and New Directions](https://yantianzha.github.io/crl.github.io/).
 
-Glad to discuss anything! Please contact me at kun.chu at uni-hamburg.de
+Glad to discuss anything! Please contact me at kun.chu at uni-hamburg dot de
