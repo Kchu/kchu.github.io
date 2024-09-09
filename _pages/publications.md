@@ -15,7 +15,7 @@ author_profile: true
   {% include archive-single.html %}
 {% endfor %}
 
-**Kun Chu**, Xufeng Zhao, Cornelius Weber, Mengdi Li, Wenhao Lu, and Stefan Wermter. **Large Language Models for Orchestrating Bimanual Robots**, arXiv preprint, 2024. [[Paper](https://arxiv.org/abs/2404.02018)] [[Website](https://labor-agent.github.io/)]
+**Kun Chu**, Xufeng Zhao, Cornelius Weber, Mengdi Li, Wenhao Lu, and Stefan Wermter. **Large Language Models for Orchestrating Bimanual Robots**, Humanoids 2024. [[Paper](https://arxiv.org/abs/2404.02018)] [[Website](https://labor-agent.github.io/)]
 
 Xufeng Zhao, Mengdi Li, Wenhao Lu, Cornelius Weber, Jae Hee Lee, **Kun Chu**, Stefan Wermter. **Enhancing Zero-Shot Chain-of-Thought Reasoning in Large Language Models through Logic**, In 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024). [[Paper](https://arxiv.org/abs/2309.13339)]
 
