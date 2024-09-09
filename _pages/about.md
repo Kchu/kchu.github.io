@@ -19,6 +19,8 @@ The Future of Embodied Intelligence is Now.
 
 ## What's New
 
+[2024.09] Our paper [Large Language Models for Orchestrating Bimanual Robots](https://labor-agent.github.io/) has been accepted by [Humanoids 2024](https://2024.ieee-humanoids.org/). See you in Nancy, France in November!
+
 [2024.07] Our application to [Researcher Access Program of OpenAI](https://openai.com/form/researcher-access-program/) has been accepted and we have been awarded 5000 USD in API credits!
 
 [2024.03] The project website of [LABOR Agent: Large Language Models for Orchestrating Bimanual Robots](https://labor-agent.github.io/) is released! Paper in arxiv version can be found at [here](https://arxiv.org/abs/2404.02018).
