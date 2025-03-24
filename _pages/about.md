@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-2nd-year PhD student in Computer Science, University of Hamburg, [Knowledge Technology (WTM)](https://www.inf.uni-hamburg.de/en/inst/ab/wtm.html) group, advised by [Prof. Stefan Wermter](https://www.inf.uni-hamburg.de/en/inst/ab/wtm/people/wermter.html).
+3nd-year PhD student in Computer Science, University of Hamburg, [Knowledge Technology (WTM)](https://www.inf.uni-hamburg.de/en/inst/ab/wtm.html) group, advised by [Prof. Stefan Wermter](https://www.inf.uni-hamburg.de/en/inst/ab/wtm/people/wermter.html).
 
 M.Sc in Computer Science and Technology, [University of Electronic Science and Technology of China](https://en.uestc.edu.cn/), advised by [Prof. William Zhu](https://scholar.google.com/citations?hl=zh-CN&user=GIwXoWAAAAAJ), 2018-2021.
 
@@ -18,6 +18,8 @@ I have a broad interest in Reinforcement Learning, Large Language Models (LLMs),
 The Future of Embodied Intelligence is Now.
 
 ## What's New
+[2025.03] Our paper, **LLM+MAP: Bimanual Robot Task Planning using Large Language Models and Planning Domain Definition Language**, is now available online on [arXiv](https://arxiv.org/abs/2503.17309). Please check the video as well on [Youtube](https://youtu.be/i2j1WyNaBa8?si=NpHR0C8QjHB_cMdg)!
+
 
 [2024.10] We have open-sourced the code for the LABOR Agent on [Github](https://github.com/Kchu/LABOR-Agent).
 
