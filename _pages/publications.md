@@ -2,7 +2,7 @@
 layout: archive
 title: "Publications"
 permalink: /publications/
-author_profile: true
+author_profile: True
 ---
 
 {% if True %}
@@ -14,6 +14,8 @@ author_profile: true
 {% for post in site.publications reversed %}
   {% include archive-single.html %}
 {% endfor %}
+
+**Kun Chu**, Xufeng Zhao, Cornelius Weber, and Stefan Wermter. **LLM+MAP: Bimanual Robot Task Planning using Large Language Models and Planning Domain Definition Language**, arXiv 2025. [[Paper](https://arxiv.org/abs/2503.17309)] [[Code](https://github.com/Kchu/LLM-MAP)]
 
 **Kun Chu**, Xufeng Zhao, Cornelius Weber, Mengdi Li, Wenhao Lu, and Stefan Wermter. **Large Language Models for Orchestrating Bimanual Robots**, Humanoids 2024. [[Paper](https://arxiv.org/abs/2404.02018)] [[Website](https://labor-agent.github.io/)]
 
