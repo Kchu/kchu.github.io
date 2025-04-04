@@ -19,12 +19,12 @@ I am deeply interested in the critical methodologies driving Embodied Intelligen
 
 - **Cerebellum** – Developing bimanual manipulation skills using foundation models.
 
-Through my work, I aim to bridge high-level reasoning with low-level motor control, pushing the boundaries of intelligent robotic systems.
+Through my work, I aim to bridge high-level reasoning and planning with low-level motion control, pushing the boundaries of intelligent robotic systems.
 
 The Future of Embodied Intelligence is Now.
 
 ## What's New
-[2025.04] Our paper, **LLM-based Interactive Imitation Learning for Robotic Manipulation**, has been accepted by [IJCNN 2025](https://2025.ijcnn.org/). Congrations to Jonas!
+[2025.04] Our paper, **LLM-iTeach: LLM-based Interactive Imitation Learning for Robotic Manipulation**, has been accepted by [IJCNN 2025](https://2025.ijcnn.org/). Congrations to Jonas!
 
 [2025.03] Our paper, **LLM+MAP: Bimanual Robot Task Planning using Large Language Models and Planning Domain Definition Language**, is now available online on [arXiv](https://arxiv.org/abs/2503.17309). Please check the video as well on [Youtube](https://youtu.be/i2j1WyNaBa8?si=NpHR0C8QjHB_cMdg)!
 
