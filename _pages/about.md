@@ -13,11 +13,19 @@ M.Sc in Computer Science and Technology, [University of Electronic Science and T
 
 B.E. in Spatial Information and Digital Technology, [University of Electronic Science and Technology of China](https://en.uestc.edu.cn/), advised by [Prof. Fen Chen](https://scholar.google.com/citations?hl=zh-CN&user=U0VZ1IkAAAAJ), 2014-2018.
 
-I have a broad interest in Reinforcement Learning, Large Language Models (LLMs), and Robotics, including 1). how to utilize LLMs to enable RL agents learn more efficiently in (bimanual) robotic tasks; 2). how to employ LLMs in long-horizon robotic tasks; 3) how to deploy learning models (foundation models, RL models) in humanoid robots for everyday tasks in real world, etc.
+I am deeply interested in the critical methodologies driving Embodied Intelligence, particularly Reinforcement Learning, Large Language Models (LLMs), and Robotics. In humanoid robot development, three key components shape their capabilities: the Brain, the Cerebellum, and the Body. My current research focuses on two of these aspects:
+
+- **Brain** – Leveraging LLMs for planning in long-horizon bimanual robotic tasks.
+
+- **Cerebellum** – Developing bimanual manipulation skills using foundation models.
+
+Through my work, I aim to bridge high-level reasoning with low-level motor control, pushing the boundaries of intelligent robotic systems.
 
 The Future of Embodied Intelligence is Now.
 
 ## What's New
+[2025.04] Our paper, **LLM-based Interactive Imitation Learning for Robotic Manipulation**, has been accepted by [IJCNN 2025](https://2025.ijcnn.org/). Congrations to Jonas!
+
 [2025.03] Our paper, **LLM+MAP: Bimanual Robot Task Planning using Large Language Models and Planning Domain Definition Language**, is now available online on [arXiv](https://arxiv.org/abs/2503.17309). Please check the video as well on [Youtube](https://youtu.be/i2j1WyNaBa8?si=NpHR0C8QjHB_cMdg)!
 
 
