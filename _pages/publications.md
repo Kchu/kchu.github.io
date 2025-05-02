@@ -15,7 +15,7 @@ author_profile: True
   {% include archive-single.html %}
 {% endfor %}
 
-Jonas Werner, **Kun Chu**, Cornelius Weber, Stefan Wermter. **LLM-based Interactive Imitation Learning for Robotic Manipulation**, IJCNN 2025. [[Paper]](https://arxiv.org/abs/2504.21769) [[Code]](https://github.com/Tubicor/LLM-iTeach)
+Jonas Werner, **Kun Chu\***, Cornelius Weber, Stefan Wermter. **LLM-based Interactive Imitation Learning for Robotic Manipulation**, IJCNN 2025. [[Paper]](https://arxiv.org/abs/2504.21769) [[Code]](https://github.com/Tubicor/LLM-iTeach)
 
 **Kun Chu**, Xufeng Zhao, Cornelius Weber, and Stefan Wermter. **LLM+MAP: Bimanual Robot Task Planning using Large Language Models and Planning Domain Definition Language**, arXiv 2025. [[Paper](https://arxiv.org/abs/2503.17309)] [[Code](https://github.com/Kchu/LLM-MAP)]
 
