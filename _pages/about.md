@@ -24,9 +24,12 @@ Through my work, I aim to bridge high-level reasoning and planning with low-leve
 The Future of Embodied Intelligence is Now.
 
 ## What's New
-[2025.04] Our paper, **LLM-iTeach: LLM-based Interactive Imitation Learning for Robotic Manipulation**, has been accepted by [IJCNN 2025](https://2025.ijcnn.org/). Congrations to Jonas!
 
-[2025.03] Our paper, **LLM+MAP: Bimanual Robot Task Planning using Large Language Models and Planning Domain Definition Language**, is now available online on [arXiv](https://arxiv.org/abs/2503.17309). Please check the video as well on [Youtube](https://youtu.be/i2j1WyNaBa8?si=NpHR0C8QjHB_cMdg)!
+[2025.05] I'm honored to attend [IJCNN 2025](https://2025.ijcnn.org/) this July in Rome, thanks to the generous support of the [IEEE CIS Travel Grant](https://cis.ieee.org/activities/membership-activities/travel-grants). Looking forward to seeing you there!
+
+[2025.04] Our paper, LLM-iTeach: LLM-based Interactive Imitation Learning for Robotic Manipulation, has been accepted for an oral presentation at [IJCNN 2025](https://2025.ijcnn.org/)! Congrats to Jonas on this great achievement!
+
+[2025.03] Our paper, LLM+MAP: Bimanual Robot Task Planning using Large Language Models and Planning Domain Definition Language, is now available online on [arXiv](https://arxiv.org/abs/2503.17309). Please check the video as well on [Youtube](https://youtu.be/i2j1WyNaBa8?si=NpHR0C8QjHB_cMdg)!
 
 
 [2024.10] We have open-sourced the code for the LABOR Agent on [Github](https://github.com/Kchu/LABOR-Agent).
@@ -41,8 +44,8 @@ The Future of Embodied Intelligence is Now.
 [2024.02] I am glad to be served as technical committee member of the 2024 IEEE International Conference on
 Robotics and Automation (ICRA 2024) [Workshop on Human-aligned Reinforcement Learning for Autonomous Agents and Robots](https://harlworkshop.github.io/index.html).
 
-[2024.02] Our paper **Enhancing Zero-Shot Chain-of-Thought Reasoning in Large Language Models through Logic** has been accepted at [COLING 2024](https://lrec-coling-2024.org/).
+[2024.02] Our paper Enhancing Zero-Shot Chain-of-Thought Reasoning in Large Language Models through Logic has been accepted at [COLING 2024](https://lrec-coling-2024.org/).
 
-[2023.11] Our paper **Accelerating Reinforcement Learning of Robotic Manipulations via Feedback from Large Language Models** has been accepted as oral presentation at the 7th Conference on Robot Learning (CoRL 2023) [Workshop on Bridging the Gap between Cognitive Science and Robot Learning in the Real World: Progresses and New Directions](https://yantianzha.github.io/crl.github.io/).
+[2023.11] Our paper Accelerating Reinforcement Learning of Robotic Manipulations via Feedback from Large Language Models has been accepted as oral presentation at the 7th Conference on Robot Learning (CoRL 2023) [Workshop on Bridging the Gap between Cognitive Science and Robot Learning in the Real World: Progresses and New Directions](https://yantianzha.github.io/crl.github.io/).
 
 Glad to discuss anything! Please contact me at kun.chu at uni-hamburg dot de
