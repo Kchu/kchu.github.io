@@ -25,11 +25,15 @@ The Future of Embodied Intelligence is Now.
 
 ## What's New
 
+[2025.10] I'm serving as the reviewer of ICRA 2026 and IUI 2026.
+
+[2025.07] The master student I supervised, Jonas, did a nice oral presentation on IJCNN 2025.
+
 [2025.05] I'm honored to attend [IJCNN 2025](https://2025.ijcnn.org/) this July in Rome, thanks to the generous support of the [IEEE CIS Travel Grant](https://cis.ieee.org/activities/membership-activities/travel-grants). Looking forward to seeing you there!
 
 [2025.04] Our paper, LLM-iTeach: LLM-based Interactive Imitation Learning for Robotic Manipulation, has been accepted for an oral presentation at [IJCNN 2025](https://2025.ijcnn.org/)! Congrats to Jonas on this great achievement!
 
-[2025.03] Our paper, LLM+MAP: Bimanual Robot Task Planning using Large Language Models and Planning Domain Definition Language, is now available online on [arXiv](https://arxiv.org/abs/2503.17309). Please check the video as well on [Youtube](https://youtu.be/i2j1WyNaBa8?si=NpHR0C8QjHB_cMdg)!
+[2025.03] Our paper, LLM+MAP: Bimanual Robot Task Planning using Large Language Models and Planning Domain Definition Language, is now available online on [arXiv](https://arxiv.org/abs/2503.17309). Please check the video as well on [Youtube](https://youtu.be/i2j1WyNaBa8?si=NpHR0C8QjHB_cMdg).
 
 
 [2024.10] We have open-sourced the code for the LABOR Agent on [Github](https://github.com/Kchu/LABOR-Agent).
