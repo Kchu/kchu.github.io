@@ -25,9 +25,11 @@ The Future of Embodied Intelligence is Now.
 
 ## What's New
 
-[2025.10] I'm serving as the reviewer of ICRA 2026 and IUI 2026.
+[2026.01] I'm honored to be an invited participant in NII Shonan Meeting Seminar No.235, [LLM-guided Synthesis, Verification, and Testing of Learning-Enabled CPS](https://shonan.nii.ac.jp/seminars/235/). See you in Tokyo, Japan this March!
 
-[2025.07] The master student I supervised, Jonas, did a nice oral presentation on IJCNN 2025.
+[2025.10] I'm serving as the reviewer of [ICRA 2026](https://2026.ieee-icra.org/) and [IUI 2026](https://iui.acm.org/2026/).
+
+<!-- [2025.07] The master student I supervised, Jonas, did a nice oral presentation on IJCNN 2025. -->
 
 [2025.05] I'm honored to attend [IJCNN 2025](https://2025.ijcnn.org/) this July in Rome, thanks to the generous support of the [IEEE CIS Travel Grant](https://cis.ieee.org/activities/membership-activities/travel-grants). Looking forward to seeing you there!
 
