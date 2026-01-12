@@ -25,6 +25,8 @@ The Future of Embodied Intelligence is Now.
 
 ## What's New
 
+[2026.01] Our paper, RankCut: A Ranking-Based LLM Approach to Extractive Summarization for Transcript-Based Video Editing, completed in collaboration with the Adobe Research team, has been accepted by [IUI 2026](https://iui.acm.org/2026/). Congrats to Sana on this great achievement!
+
 [2026.01] I'm honored to be an invited participant in NII Shonan Meeting Seminar No.235, [LLM-guided Synthesis, Verification, and Testing of Learning-Enabled CPS](https://shonan.nii.ac.jp/seminars/235/). See you in Tokyo, Japan this March!
 
 [2025.10] I'm serving as the reviewer of [ICRA 2026](https://2026.ieee-icra.org/) and [IUI 2026](https://iui.acm.org/2026/).
