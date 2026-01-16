@@ -25,9 +25,9 @@ The Future of Embodied Intelligence is Now.
 
 ## What's New
 
-[2026.01] Our paper, RankCut: A Ranking-Based LLM Approach to Extractive Summarization for Transcript-Based Video Editing, completed in collaboration with the Adobe Research team, has been accepted by [IUI 2026](https://iui.acm.org/2026/). Congrats to Sana on this great achievement!
+[2026.01] Our paper, RankCut: A Ranking-Based LLM Approach to Extractive Summarization for Transcript-Based Video Editing, has been accepted to [IUI 2026](https://iui.acm.org/2026/). This project was co-supervised with the Adobe Research team. Congrats, Sana!
 
-[2026.01] I'm honored to be an invited participant in NII Shonan Meeting Seminar No.235, [LLM-guided Synthesis, Verification, and Testing of Learning-Enabled CPS](https://shonan.nii.ac.jp/seminars/235/). See you in Tokyo, Japan this March!
+[2026.01] I'm honored to be an invited participant at NII Shonan Meeting Seminar No.235, [LLM-guided Synthesis, Verification, and Testing of Learning-Enabled CPS](https://shonan.nii.ac.jp/seminars/235/). See you in Tokyo, Japan this March!
 
 [2025.10] I'm serving as the reviewer of [ICRA 2026](https://2026.ieee-icra.org/) and [IUI 2026](https://iui.acm.org/2026/).
 
@@ -35,19 +35,17 @@ The Future of Embodied Intelligence is Now.
 
 [2025.05] I'm honored to attend [IJCNN 2025](https://2025.ijcnn.org/) this July in Rome, thanks to the generous support of the [IEEE CIS Travel Grant](https://cis.ieee.org/activities/membership-activities/travel-grants). Looking forward to seeing you there!
 
-[2025.04] Our paper, LLM-iTeach: LLM-based Interactive Imitation Learning for Robotic Manipulation, has been accepted for an oral presentation at [IJCNN 2025](https://2025.ijcnn.org/)! Congrats to Jonas on this great achievement!
+[2025.04] Our paper, LLM-iTeach: LLM-based Interactive Imitation Learning for Robotic Manipulation, has been accepted for an oral presentation at [IJCNN 2025](https://2025.ijcnn.org/)! This work was led by Jonas under my supervision. Congrats, Jonas!
 
 [2025.03] Our paper, LLM+MAP: Bimanual Robot Task Planning using Large Language Models and Planning Domain Definition Language, is now available online on [arXiv](https://arxiv.org/abs/2503.17309). Please check the video as well on [Youtube](https://youtu.be/i2j1WyNaBa8?si=NpHR0C8QjHB_cMdg).
 
-
 [2024.10] We have open-sourced the code for the LABOR Agent on [Github](https://github.com/Kchu/LABOR-Agent).
-
 
 [2024.09] Our paper [Large Language Models for Orchestrating Bimanual Robots](https://labor-agent.github.io/) has been accepted by [Humanoids 2024](https://2024.ieee-humanoids.org/). See you in Nancy, France in November!
 
 [2024.07] Our application to [Researcher Access Program of OpenAI](https://openai.com/form/researcher-access-program/) has been accepted and we have been awarded 5000 USD in API credits!
 
-[2024.03] The project website of [LABOR Agent: Large Language Models for Orchestrating Bimanual Robots](https://labor-agent.github.io/) is released! Paper in arxiv version can be found at [here](https://arxiv.org/abs/2404.02018).
+<!-- [2024.03] The project website of [LABOR Agent: Large Language Models for Orchestrating Bimanual Robots](https://labor-agent.github.io/) is released! Paper in arxiv version can be found at [here](https://arxiv.org/abs/2404.02018). -->
 
 [2024.02] I am glad to be served as technical committee member of the 2024 IEEE International Conference on
 Robotics and Automation (ICRA 2024) [Workshop on Human-aligned Reinforcement Learning for Autonomous Agents and Robots](https://harlworkshop.github.io/index.html).
