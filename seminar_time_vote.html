@@ -4,33 +4,33 @@
 <style>
   .poll-wrap { padding: 1.5rem 0; }
   .poll-header { margin-bottom: 1.5rem; }
-  .poll-header h3 { font-size: 18px; font-weight: 500; color: var(--color-text-primary); margin: 0 0 4px; }
-  .poll-header p { font-size: 14px; color: var(--color-text-secondary); margin: 0; }
+  .poll-header h3 { font-size: 28px; font-weight: 500; color: var(--color-text-primary); margin: 0 0 4px; }
+  .poll-header p { font-size: 20px; color: var(--color-text-secondary); margin: 0; }
   .name-row { display: flex; gap: 10px; align-items: center; margin-bottom: 1.5rem; }
-  .name-row input { flex: 1; max-width: 280px; }
-  .name-row button { white-space: nowrap; }
-  .grid { display: grid; grid-template-columns: 110px repeat(4, 1fr); gap: 6px; margin-bottom: 1.5rem; }
-  .grid-head { font-size: 12px; font-weight: 500; color: var(--color-text-secondary); text-align: center; padding: 6px 4px; }
-  .grid-head.day { font-size: 13px; color: var(--color-text-primary); font-weight: 500; }
-  .time-label { font-size: 13px; color: var(--color-text-secondary); display: flex; align-items: center; padding-right: 6px; }
-  .slot { border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-md); padding: 10px 6px; text-align: center; cursor: pointer; background: var(--color-background-primary); transition: background 0.15s, border-color 0.15s; min-height: 48px; display: flex; align-items: center; justify-content: center; flex-direction: column; gap: 3px; }
+  .name-row input { flex: 1; max-width: 280px; font-size: 18px; }
+  .name-row button { white-space: nowrap; font-size: 18px; }
+  .grid { display: grid; grid-template-columns: 150px repeat(4, 1fr); gap: 6px; margin-bottom: 1.5rem; }
+  .grid-head { font-size: 18px; font-weight: 500; color: var(--color-text-secondary); text-align: center; padding: 6px 4px; }
+  .grid-head.day { font-size: 20px; color: var(--color-text-primary); font-weight: 500; }
+  .time-label { font-size: 18px; color: var(--color-text-secondary); display: flex; align-items: center; padding-right: 6px; }
+  .slot { border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-md); padding: 14px 8px; text-align: center; cursor: pointer; background: var(--color-background-primary); transition: background 0.15s, border-color 0.15s; min-height: 64px; display: flex; align-items: center; justify-content: center; flex-direction: column; gap: 3px; }
   .slot:hover { border-color: var(--color-border-secondary); background: var(--color-background-secondary); }
   .slot.selected { background: #E6F1FB; border-color: #185FA5; }
   .slot.selected .slot-check { color: #185FA5; }
-  .slot-count { font-size: 11px; color: var(--color-text-tertiary); }
+  .slot-count { font-size: 16px; color: var(--color-text-tertiary); }
   .slot.has-votes .slot-count { color: var(--color-text-secondary); }
-  .slot-check { font-size: 16px; color: transparent; transition: color 0.15s; }
+  .slot-check { font-size: 22px; color: transparent; transition: color 0.15s; }
   .slot.selected .slot-check { color: #185FA5; }
   .voters-section { margin-top: 0.5rem; }
-  .voters-label { font-size: 12px; color: var(--color-text-tertiary); margin-bottom: 4px; }
-  .voter-pill { display: inline-block; background: var(--color-background-secondary); border: 0.5px solid var(--color-border-tertiary); border-radius: 20px; font-size: 12px; color: var(--color-text-secondary); padding: 2px 10px; margin: 2px 3px 2px 0; }
+  .voters-label { font-size: 18px; color: var(--color-text-tertiary); margin-bottom: 4px; }
+  .voter-pill { display: inline-block; background: var(--color-background-secondary); border: 0.5px solid var(--color-border-tertiary); border-radius: 20px; font-size: 18px; color: var(--color-text-secondary); padding: 4px 14px; margin: 2px 3px 2px 0; }
   .submit-row { display: flex; gap: 10px; align-items: center; margin-top: 0.5rem; }
   .submit-row button.primary { background: #185FA5; color: #E6F1FB; border-color: #185FA5; font-weight: 500; }
   .submit-row button.primary:hover { background: #0C447C; border-color: #0C447C; }
   .result-bar-wrap { margin-top: 4px; height: 4px; background: var(--color-background-secondary); border-radius: 4px; overflow: hidden; }
   .result-bar { height: 100%; background: #378ADD; border-radius: 4px; transition: width 0.4s; }
-  .toast { font-size: 13px; color: #0F6E56; background: #E1F5EE; border: 0.5px solid #1D9E75; border-radius: var(--border-radius-md); padding: 6px 14px; display: none; }
-  .section-title { font-size: 11px; font-weight: 500; color: var(--color-text-tertiary); text-transform: uppercase; letter-spacing: 0.06em; margin: 0 0 6px; grid-column: 1 / -1; padding-top: 10px; }
+  .toast { font-size: 18px; color: #0F6E56; background: #E1F5EE; border: 0.5px solid #1D9E75; border-radius: var(--border-radius-md); padding: 6px 14px; display: none; }
+  .section-title { font-size: 16px; font-weight: 500; color: var(--color-text-tertiary); text-transform: uppercase; letter-spacing: 0.06em; margin: 0 0 6px; grid-column: 1 / -1; padding-top: 10px; }
 </style>
 
 <div class="poll-wrap">
@@ -51,28 +51,30 @@
     <div class="grid-head day">Thu</div>
     <div class="grid-head day">Fri</div>
 
-    <div class="section-title">14:00 – 15:00</div>
+    <div class="time-label">11:00–12:00</div>
+    <div class="slot" data-slot="mon-1100" onclick="toggleSlot(this)"><i class="ti ti-check slot-check" aria-hidden="true"></i><span class="slot-count"></span></div>
+    <div class="slot" data-slot="wed-1100" onclick="toggleSlot(this)"><i class="ti ti-check slot-check" aria-hidden="true"></i><span class="slot-count"></span></div>
+    <div class="slot" data-slot="thu-1100" onclick="toggleSlot(this)"><i class="ti ti-check slot-check" aria-hidden="true"></i><span class="slot-count"></span></div>
+    <div class="slot" data-slot="fri-1100" onclick="toggleSlot(this)"><i class="ti ti-check slot-check" aria-hidden="true"></i><span class="slot-count"></span></div>
+
     <div class="time-label">14:00–15:00</div>
     <div class="slot" data-slot="mon-1400" onclick="toggleSlot(this)"><i class="ti ti-check slot-check" aria-hidden="true"></i><span class="slot-count"></span></div>
     <div class="slot" data-slot="wed-1400" onclick="toggleSlot(this)"><i class="ti ti-check slot-check" aria-hidden="true"></i><span class="slot-count"></span></div>
     <div class="slot" data-slot="thu-1400" onclick="toggleSlot(this)"><i class="ti ti-check slot-check" aria-hidden="true"></i><span class="slot-count"></span></div>
     <div class="slot" data-slot="fri-1400" onclick="toggleSlot(this)"><i class="ti ti-check slot-check" aria-hidden="true"></i><span class="slot-count"></span></div>
 
-    <div class="section-title">15:00 – 16:00</div>
     <div class="time-label">15:00–16:00</div>
     <div class="slot" data-slot="mon-1500" onclick="toggleSlot(this)"><i class="ti ti-check slot-check" aria-hidden="true"></i><span class="slot-count"></span></div>
     <div class="slot" data-slot="wed-1500" onclick="toggleSlot(this)"><i class="ti ti-check slot-check" aria-hidden="true"></i><span class="slot-count"></span></div>
     <div class="slot" data-slot="thu-1500" onclick="toggleSlot(this)"><i class="ti ti-check slot-check" aria-hidden="true"></i><span class="slot-count"></span></div>
     <div class="slot" data-slot="fri-1500" onclick="toggleSlot(this)"><i class="ti ti-check slot-check" aria-hidden="true"></i><span class="slot-count"></span></div>
 
-    <div class="section-title">16:00 – 17:00</div>
     <div class="time-label">16:00–17:00</div>
     <div class="slot" data-slot="mon-1600" onclick="toggleSlot(this)"><i class="ti ti-check slot-check" aria-hidden="true"></i><span class="slot-count"></span></div>
     <div class="slot" data-slot="wed-1600" onclick="toggleSlot(this)"><i class="ti ti-check slot-check" aria-hidden="true"></i><span class="slot-count"></span></div>
     <div class="slot" data-slot="thu-1600" onclick="toggleSlot(this)"><i class="ti ti-check slot-check" aria-hidden="true"></i><span class="slot-count"></span></div>
     <div class="slot" data-slot="fri-1600" onclick="toggleSlot(this)"><i class="ti ti-check slot-check" aria-hidden="true"></i><span class="slot-count"></span></div>
 
-    <div class="section-title">17:00 – 18:00</div>
     <div class="time-label">17:00–18:00</div>
     <div class="slot" data-slot="mon-1700" onclick="toggleSlot(this)"><i class="ti ti-check slot-check" aria-hidden="true"></i><span class="slot-count"></span></div>
     <div class="slot" data-slot="wed-1700" onclick="toggleSlot(this)"><i class="ti ti-check slot-check" aria-hidden="true"></i><span class="slot-count"></span></div>
@@ -86,7 +88,7 @@
   </div>
 
   <div class="voters-section" id="votersSection" style="margin-top:1.5rem; display:none;">
-    <div style="font-size:13px; font-weight:500; color:var(--color-text-primary); margin-bottom:8px;">Results</div>
+    <div style="font-size:20px; font-weight:500; color:var(--color-text-primary); margin-bottom:8px;">Results</div>
     <div id="resultsDetail"></div>
   </div>
 </div>
@@ -145,8 +147,8 @@ function renderResults() {
 
   const days = ['mon','wed','thu','fri'];
   const dayNames = {mon:'Monday', wed:'Wednesday', thu:'Thursday', fri:'Friday'};
-  const times = ['1400','1500','1600','1700'];
-  const timeLabels = {'1400':'14:00–15:00','1500':'15:00–16:00','1600':'16:00–17:00','1700':'17:00–18:00'};
+  const times = ['1100','1400','1500','1600','1700'];
+  const timeLabels = {'1100':'11:00–12:00','1400':'14:00–15:00','1500':'15:00–16:00','1600':'16:00–17:00','1700':'17:00–18:00'};
 
   let sorted = [];
   days.forEach(d => times.forEach(t => {
@@ -162,8 +164,8 @@ function renderResults() {
     const pct = Math.round((s.voters.length / maxVotes) * 100);
     return '<div style="margin-bottom:14px;">'
       + '<div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:4px;">'
-      + '<span style="font-size:13px;font-weight:500;color:var(--color-text-primary);">' + s.day + ' · ' + s.time + '</span>'
-      + '<span style="font-size:12px;color:var(--color-text-secondary);">' + s.voters.length + ' available</span>'
+      + '<span style="font-size:18px;font-weight:500;color:var(--color-text-primary);">' + s.day + ' · ' + s.time + '</span>'
+      + '<span style="font-size:17px;color:var(--color-text-secondary);">' + s.voters.length + ' available</span>'
       + '</div>'
       + '<div class="result-bar-wrap"><div class="result-bar" style="width:' + pct + '%"></div></div>'
       + '<div style="margin-top:5px;">' + s.voters.map(v => '<span class="voter-pill">' + v + '</span>').join('') + '</div>'
