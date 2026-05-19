@@ -1,0 +1,173 @@
+
+<h2 class="sr-only">Seminar time slot voting poll — select all slots that work for you and submit your vote</h2>
+
+<style>
+  .poll-wrap { padding: 1.5rem 0; }
+  .poll-header { margin-bottom: 1.5rem; }
+  .poll-header h3 { font-size: 18px; font-weight: 500; color: var(--color-text-primary); margin: 0 0 4px; }
+  .poll-header p { font-size: 14px; color: var(--color-text-secondary); margin: 0; }
+  .name-row { display: flex; gap: 10px; align-items: center; margin-bottom: 1.5rem; }
+  .name-row input { flex: 1; max-width: 280px; }
+  .name-row button { white-space: nowrap; }
+  .grid { display: grid; grid-template-columns: 110px repeat(4, 1fr); gap: 6px; margin-bottom: 1.5rem; }
+  .grid-head { font-size: 12px; font-weight: 500; color: var(--color-text-secondary); text-align: center; padding: 6px 4px; }
+  .grid-head.day { font-size: 13px; color: var(--color-text-primary); font-weight: 500; }
+  .time-label { font-size: 13px; color: var(--color-text-secondary); display: flex; align-items: center; padding-right: 6px; }
+  .slot { border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-md); padding: 10px 6px; text-align: center; cursor: pointer; background: var(--color-background-primary); transition: background 0.15s, border-color 0.15s; min-height: 48px; display: flex; align-items: center; justify-content: center; flex-direction: column; gap: 3px; }
+  .slot:hover { border-color: var(--color-border-secondary); background: var(--color-background-secondary); }
+  .slot.selected { background: #E6F1FB; border-color: #185FA5; }
+  .slot.selected .slot-check { color: #185FA5; }
+  .slot-count { font-size: 11px; color: var(--color-text-tertiary); }
+  .slot.has-votes .slot-count { color: var(--color-text-secondary); }
+  .slot-check { font-size: 16px; color: transparent; transition: color 0.15s; }
+  .slot.selected .slot-check { color: #185FA5; }
+  .voters-section { margin-top: 0.5rem; }
+  .voters-label { font-size: 12px; color: var(--color-text-tertiary); margin-bottom: 4px; }
+  .voter-pill { display: inline-block; background: var(--color-background-secondary); border: 0.5px solid var(--color-border-tertiary); border-radius: 20px; font-size: 12px; color: var(--color-text-secondary); padding: 2px 10px; margin: 2px 3px 2px 0; }
+  .submit-row { display: flex; gap: 10px; align-items: center; margin-top: 0.5rem; }
+  .submit-row button.primary { background: #185FA5; color: #E6F1FB; border-color: #185FA5; font-weight: 500; }
+  .submit-row button.primary:hover { background: #0C447C; border-color: #0C447C; }
+  .result-bar-wrap { margin-top: 4px; height: 4px; background: var(--color-background-secondary); border-radius: 4px; overflow: hidden; }
+  .result-bar { height: 100%; background: #378ADD; border-radius: 4px; transition: width 0.4s; }
+  .toast { font-size: 13px; color: #0F6E56; background: #E1F5EE; border: 0.5px solid #1D9E75; border-radius: var(--border-radius-md); padding: 6px 14px; display: none; }
+  .section-title { font-size: 11px; font-weight: 500; color: var(--color-text-tertiary); text-transform: uppercase; letter-spacing: 0.06em; margin: 0 0 6px; grid-column: 1 / -1; padding-top: 10px; }
+</style>
+
+<div class="poll-wrap">
+  <div class="poll-header">
+    <h3>World models in robotics — seminar scheduling</h3>
+    <p>Select all time slots that work for you, then submit your availability.</p>
+  </div>
+
+  <div class="name-row">
+    <input type="text" id="voterName" placeholder="Your name" aria-label="Your name" />
+    <span class="toast" id="toast">Vote recorded!</span>
+  </div>
+
+  <div class="grid" id="voteGrid">
+    <div class="grid-head"></div>
+    <div class="grid-head day">Mon</div>
+    <div class="grid-head day">Wed</div>
+    <div class="grid-head day">Thu</div>
+    <div class="grid-head day">Fri</div>
+
+    <div class="section-title">14:00 – 15:00</div>
+    <div class="time-label">14:00–15:00</div>
+    <div class="slot" data-slot="mon-1400" onclick="toggleSlot(this)"><i class="ti ti-check slot-check" aria-hidden="true"></i><span class="slot-count"></span></div>
+    <div class="slot" data-slot="wed-1400" onclick="toggleSlot(this)"><i class="ti ti-check slot-check" aria-hidden="true"></i><span class="slot-count"></span></div>
+    <div class="slot" data-slot="thu-1400" onclick="toggleSlot(this)"><i class="ti ti-check slot-check" aria-hidden="true"></i><span class="slot-count"></span></div>
+    <div class="slot" data-slot="fri-1400" onclick="toggleSlot(this)"><i class="ti ti-check slot-check" aria-hidden="true"></i><span class="slot-count"></span></div>
+
+    <div class="section-title">15:00 – 16:00</div>
+    <div class="time-label">15:00–16:00</div>
+    <div class="slot" data-slot="mon-1500" onclick="toggleSlot(this)"><i class="ti ti-check slot-check" aria-hidden="true"></i><span class="slot-count"></span></div>
+    <div class="slot" data-slot="wed-1500" onclick="toggleSlot(this)"><i class="ti ti-check slot-check" aria-hidden="true"></i><span class="slot-count"></span></div>
+    <div class="slot" data-slot="thu-1500" onclick="toggleSlot(this)"><i class="ti ti-check slot-check" aria-hidden="true"></i><span class="slot-count"></span></div>
+    <div class="slot" data-slot="fri-1500" onclick="toggleSlot(this)"><i class="ti ti-check slot-check" aria-hidden="true"></i><span class="slot-count"></span></div>
+
+    <div class="section-title">16:00 – 17:00</div>
+    <div class="time-label">16:00–17:00</div>
+    <div class="slot" data-slot="mon-1600" onclick="toggleSlot(this)"><i class="ti ti-check slot-check" aria-hidden="true"></i><span class="slot-count"></span></div>
+    <div class="slot" data-slot="wed-1600" onclick="toggleSlot(this)"><i class="ti ti-check slot-check" aria-hidden="true"></i><span class="slot-count"></span></div>
+    <div class="slot" data-slot="thu-1600" onclick="toggleSlot(this)"><i class="ti ti-check slot-check" aria-hidden="true"></i><span class="slot-count"></span></div>
+    <div class="slot" data-slot="fri-1600" onclick="toggleSlot(this)"><i class="ti ti-check slot-check" aria-hidden="true"></i><span class="slot-count"></span></div>
+
+    <div class="section-title">17:00 – 18:00</div>
+    <div class="time-label">17:00–18:00</div>
+    <div class="slot" data-slot="mon-1700" onclick="toggleSlot(this)"><i class="ti ti-check slot-check" aria-hidden="true"></i><span class="slot-count"></span></div>
+    <div class="slot" data-slot="wed-1700" onclick="toggleSlot(this)"><i class="ti ti-check slot-check" aria-hidden="true"></i><span class="slot-count"></span></div>
+    <div class="slot" data-slot="thu-1700" onclick="toggleSlot(this)"><i class="ti ti-check slot-check" aria-hidden="true"></i><span class="slot-count"></span></div>
+    <div class="slot" data-slot="fri-1700" onclick="toggleSlot(this)"><i class="ti ti-check slot-check" aria-hidden="true"></i><span class="slot-count"></span></div>
+  </div>
+
+  <div class="submit-row">
+    <button class="primary" onclick="submitVote()"><i class="ti ti-check" aria-hidden="true"></i> Submit availability</button>
+    <button onclick="clearSelection()">Clear</button>
+  </div>
+
+  <div class="voters-section" id="votersSection" style="margin-top:1.5rem; display:none;">
+    <div style="font-size:13px; font-weight:500; color:var(--color-text-primary); margin-bottom:8px;">Results</div>
+    <div id="resultsDetail"></div>
+  </div>
+</div>
+
+<script>
+const votes = {};
+const selected = new Set();
+
+function toggleSlot(el) {
+  const s = el.dataset.slot;
+  if (selected.has(s)) { selected.delete(s); el.classList.remove('selected'); }
+  else { selected.add(s); el.classList.add('selected'); }
+}
+
+function submitVote() {
+  const name = document.getElementById('voterName').value.trim();
+  if (!name) { document.getElementById('voterName').focus(); return; }
+  if (selected.size === 0) return;
+
+  selected.forEach(s => {
+    if (!votes[s]) votes[s] = [];
+    if (!votes[s].includes(name)) votes[s].push(name);
+  });
+
+  const toast = document.getElementById('toast');
+  toast.style.display = 'inline-block';
+  setTimeout(() => toast.style.display = 'none', 2000);
+
+  document.getElementById('voterName').value = '';
+  selected.clear();
+  document.querySelectorAll('.slot.selected').forEach(el => el.classList.remove('selected'));
+
+  renderResults();
+}
+
+function clearSelection() {
+  selected.clear();
+  document.querySelectorAll('.slot.selected').forEach(el => el.classList.remove('selected'));
+}
+
+function renderResults() {
+  const allSlots = document.querySelectorAll('.slot');
+  const maxVotes = Math.max(1, ...Object.values(votes).map(v => v.length));
+
+  allSlots.forEach(el => {
+    const s = el.dataset.slot;
+    const v = votes[s] || [];
+    const countEl = el.querySelector('.slot-count');
+    countEl.textContent = v.length > 0 ? v.length + (v.length === 1 ? ' vote' : ' votes') : '';
+    if (v.length > 0) el.classList.add('has-votes');
+  });
+
+  const section = document.getElementById('votersSection');
+  const detail = document.getElementById('resultsDetail');
+  section.style.display = 'block';
+
+  const days = ['mon','wed','thu','fri'];
+  const dayNames = {mon:'Monday', wed:'Wednesday', thu:'Thursday', fri:'Friday'};
+  const times = ['1400','1500','1600','1700'];
+  const timeLabels = {'1400':'14:00–15:00','1500':'15:00–16:00','1600':'16:00–17:00','1700':'17:00–18:00'};
+
+  let sorted = [];
+  days.forEach(d => times.forEach(t => {
+    const key = d + '-' + t;
+    if (votes[key] && votes[key].length > 0)
+      sorted.push({ key, day: dayNames[d], time: timeLabels[t], voters: votes[key] });
+  }));
+  sorted.sort((a,b) => b.voters.length - a.voters.length);
+
+  if (sorted.length === 0) { detail.innerHTML = ''; return; }
+
+  detail.innerHTML = sorted.map(s => {
+    const pct = Math.round((s.voters.length / maxVotes) * 100);
+    return '<div style="margin-bottom:14px;">'
+      + '<div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:4px;">'
+      + '<span style="font-size:13px;font-weight:500;color:var(--color-text-primary);">' + s.day + ' · ' + s.time + '</span>'
+      + '<span style="font-size:12px;color:var(--color-text-secondary);">' + s.voters.length + ' available</span>'
+      + '</div>'
+      + '<div class="result-bar-wrap"><div class="result-bar" style="width:' + pct + '%"></div></div>'
+      + '<div style="margin-top:5px;">' + s.voters.map(v => '<span class="voter-pill">' + v + '</span>').join('') + '</div>'
+      + '</div>';
+  }).join('');
+}
+</script>
