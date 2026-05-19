@@ -325,15 +325,15 @@
 </div>
 
 <script>
-const GIST_ID    = '1733679ec5f367bf08914a9acde1c768';
-const GH_TOKEN   = 'YOUR_GITHUB_TOKEN';
-const GIST_FILE  = 'votes.json';
+const GIST_ID   = '1733679ec5f367bf08914a9acde1c768';
+const GH_TOKEN  = 'YOUR_GITHUB_TOKEN';  // paste your new fine-grained token here
+const GIST_FILE = 'votes.json';
 
 const DAYS  = ['mon','wed','thu','fri'];
 const DNAMES = { mon:'Monday', wed:'Wednesday', thu:'Thursday', fri:'Friday' };
 const DSHORT = { mon:'Mon', wed:'Wed', thu:'Thu', fri:'Fri' };
-const TIMES  = ['1400','1500','1600','1700'];
-const TLABELS = { '1400':'14:00–15:00', '1500':'15:00–16:00', '1600':'16:00–17:00', '1700':'17:00–18:00' };
+const TIMES  = ['1100','1400','1500','1600','1700'];
+const TLABELS = { '1100':'11:00–12:00', '1400':'14:00–15:00', '1500':'15:00–16:00', '1600':'16:00–17:00', '1700':'17:00–18:00' };
 
 let votes = {};
 let selected = new Set();
@@ -396,7 +396,7 @@ function showStatus(msg, type) {
 }
 
 async function loadVotes() {
-  if (GIST_ID === 'YOUR_GIST_ID') {
+  if (GH_TOKEN === 'YOUR_GITHUB_TOKEN') {
     document.getElementById('configBanner').style.display = 'block';
     return;
   }
@@ -406,8 +406,7 @@ async function loadVotes() {
     });
     if (!res.ok) throw new Error('fetch failed');
     const data = await res.json();
-    const raw = data.files[GIST_FILE]?.content || '{}';
-    votes = JSON.parse(raw);
+    votes = JSON.parse(data.files[GIST_FILE]?.content || '{}');
     renderVotes();
   } catch (e) {
     showStatus('Could not load votes. Check Gist ID / token.', 'error');
@@ -420,9 +419,9 @@ async function saveVotes() {
     headers: {
       'Authorization': `token ${GH_TOKEN}`,
       'Accept': 'application/vnd.github.v3+json',
-      'Content-Type': 'application/json'
+      'Content-Type': 'application/json',
     },
-    body: JSON.stringify({ files: { [GIST_FILE]: { content: JSON.stringify(votes, null, 2) } } })
+    body: JSON.stringify({ files: { [GIST_FILE]: { content: JSON.stringify(votes, null, 2) } } }),
   });
   if (!res.ok) throw new Error('save failed');
 }
