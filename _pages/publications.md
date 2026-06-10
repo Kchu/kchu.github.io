@@ -15,7 +15,7 @@ author_profile: True
   {% include archive-single.html %}
 {% endfor %}
 
-Sana Shah, Mackenzie Leake, **Kun Chu**, Cornelius Weber, Nico Becherer, Stefan Wermter. **RankCut: A Ranking-Based LLM Approach to Extractive Summarization for Transcript-Based Video Editing**, IUI 2026.
+Sana Shah, Mackenzie Leake, **Kun Chu**, Cornelius Weber, Nico Becherer, Stefan Wermter. **RankCut: A Ranking-Based LLM Approach to Extractive Summarization for Transcript-Based Video Editing**, IUI 2026. [[Paper](https://dl.acm.org/doi/10.1145/3742413.3789115)]
 
 Jonas Werner, **Kun Chu\***, Cornelius Weber, Stefan Wermter. **LLM-based Interactive Imitation Learning for Robotic Manipulation**, IJCNN 2025 (**Oral**). [[Paper]](https://arxiv.org/abs/2504.21769) [[Code]](https://github.com/Tubicor/LLM-iTeach)
 
