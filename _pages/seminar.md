@@ -176,8 +176,7 @@ classes: wide
   <div class="eyebrow">University of Hamburg &nbsp;·&nbsp; Department of Informatics</div>
   <h1>WTM World Model Seminar</h1>
   <p class="tagline">
-    A weekly reading and presentation seminar on world models, representation learning,
-    and embodied intelligence — bridging theory and robotics.
+    A weekly reading and presentation seminar on world models, vision-language action models, and embodied intelligence — bridging theory and robotics.
   </p>
   <a class="hero-btn" href="https://www.inf.uni-hamburg.de/en/inst/ab/wtm.html" target="_blank">
     Knowledge Technology Group (WTM) ↗

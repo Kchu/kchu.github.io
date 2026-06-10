@@ -23,6 +23,9 @@ Through my work, I aim to bridge high-level reasoning and planning with low-leve
 
 The Future of Embodied Intelligence is Now.
 
+## WTM WM Seminar
+Since May 21, 2026, I have been organizing the WTM World Model Seminar, a weekly seminar series I initiated within the Knowledge Technology (WTM) group at the University of Hamburg. The seminar brings colleagues together to discuss recent papers and emerging ideas on world models in robotics, fostering exchange across projects and helping us connect these developments to our own research.
+
 ## What's New
 
 [2026.01] Our paper, RankCut: A Ranking-Based LLM Approach to Extractive Summarization for Transcript-Based Video Editing, has been accepted to [IUI 2026](https://iui.acm.org/2026/). This project was co-supervised with the Adobe Research team. Congrats, Sana!
