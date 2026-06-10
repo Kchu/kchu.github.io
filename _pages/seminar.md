@@ -200,7 +200,7 @@ classes: wide
     <div class="s-icon">📍</div>
     <div class="s-label">Where (In-Person)</div>
     <div class="s-value">
-      [07-627 / House of Informatics]<br>
+      [House of Informatics]<br>
       <small>Bundesstr. 56b, 20146 Hamburg</small>
     </div>
   </div>
@@ -237,7 +237,7 @@ classes: wide
       <th>Date</th>
       <th>Topic</th>
       <th>Presenter</th>
-      <th>Location</th>
+      <th>Location/Room</th>
     </tr>
   </thead>
   <tbody>
@@ -250,7 +250,7 @@ classes: wide
         <div class="topic-sub">Hou et al.</div>
       </td>
       <td class="Presenter">Parsa</td>
-      <td><span class="badge badge-room">[Room 07-627]</span></td>
+      <td><span class="badge badge-room">[07-627]</span></td>
     </tr>
 
     <tr>
@@ -261,7 +261,7 @@ classes: wide
         <div class="topic-sub">ByteDance Research</div>
       </td>
       <td class="Presenter">Mostafa</td>
-      <td><span class="badge badge-room">[Room 07-627]</span></td>
+      <td><span class="badge badge-room">[07-627]</span></td>
     </tr>
 
     <tr>
@@ -272,7 +272,7 @@ classes: wide
         <div class="topic-sub"></div>
       </td>
       <td class="Presenter">Thomas</td>
-      <td><span class="badge badge-room">[Room 07-627]</span></td>
+      <td><span class="badge badge-room">[07-627]</span></td>
     </tr>
 
     <tr>
@@ -283,7 +283,7 @@ classes: wide
         <div class="topic-sub"></div>
       </td>
       <td class="Presenter">Kun</td>
-      <td><span class="badge badge-room">[Room 07-627]</span></td>
+      <td><span class="badge badge-room">[07-627]</span></td>
     </tr>
 
     <tr>
@@ -294,7 +294,7 @@ classes: wide
         <div class="topic-sub"></div>
       </td>
       <td class="Presenter">TBA</td>
-      <td><span class="badge badge-room">[Room 07-627]</span></td>
+      <td><span class="badge badge-room">[07-627]</span></td>
     </tr>
 
     <!-- ── Add more rows by copying the block above ── -->
