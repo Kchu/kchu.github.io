@@ -24,7 +24,7 @@ Through my work, I aim to bridge high-level reasoning and planning with low-leve
 The Future of Embodied Intelligence is Now.
 
 ## WTM WM Seminar
-Since May 21, 2026, I have been organizing the WTM World Model Seminar, a weekly seminar series I initiated within the Knowledge Technology (WTM) group at the University of Hamburg. The seminar brings colleagues together to discuss recent papers and emerging ideas on world models in robotics, fostering exchange across projects and helping us connect these developments to our own research.
+In May 2026, I initiated the [WTM World Model Seminar](https://kchu.github.io/seminar/), an ongoing seminar series in our group where colleagues present and discuss the latest work on world models, share ideas across projects, and explore how these advances can inform our own research. Anyone interested in world models is warmly welcome to join us — feel free to reach out or simply drop by!
 
 ## What's New
 
@@ -33,8 +33,6 @@ Since May 21, 2026, I have been organizing the WTM World Model Seminar, a weekly
 [2026.01] I'm honored to be an invited participant at NII Shonan Meeting Seminar No.235, [LLM-guided Synthesis, Verification, and Testing of Learning-Enabled CPS](https://shonan.nii.ac.jp/seminars/235/). See you in Tokyo, Japan this March!
 
 [2025.10] I'm serving as the reviewer of [ICRA 2026](https://2026.ieee-icra.org/) and [IUI 2026](https://iui.acm.org/2026/).
-
-<!-- [2025.07] The master student I supervised, Jonas, did a nice oral presentation on IJCNN 2025. -->
 
 [2025.05] I'm honored to attend [IJCNN 2025](https://2025.ijcnn.org/) this July in Rome, thanks to the generous support of the [IEEE CIS Travel Grant](https://cis.ieee.org/activities/membership-activities/travel-grants). Looking forward to seeing you there!
 
@@ -47,8 +45,6 @@ Since May 21, 2026, I have been organizing the WTM World Model Seminar, a weekly
 [2024.09] Our paper [Large Language Models for Orchestrating Bimanual Robots](https://labor-agent.github.io/) has been accepted by [Humanoids 2024](https://2024.ieee-humanoids.org/). See you in Nancy, France in November!
 
 [2024.07] Our application to [Researcher Access Program of OpenAI](https://openai.com/form/researcher-access-program/) has been accepted and we have been awarded 5000 USD in API credits!
-
-<!-- [2024.03] The project website of [LABOR Agent: Large Language Models for Orchestrating Bimanual Robots](https://labor-agent.github.io/) is released! Paper in arxiv version can be found at [here](https://arxiv.org/abs/2404.02018). -->
 
 [2024.02] I am glad to be served as technical committee member of the 2024 IEEE International Conference on
 Robotics and Automation (ICRA 2024) [Workshop on Human-aligned Reinforcement Learning for Autonomous Agents and Robots](https://harlworkshop.github.io/index.html).
