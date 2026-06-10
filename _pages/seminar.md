@@ -53,40 +53,40 @@ classes: wide
 /* ── Info cards ── */
 .sem-cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
   margin-bottom: 2.5rem;
 }
 .sem-card {
   background: #f8f9fa;
   border: 1px solid #e2e6ea;
-  border-radius: 8px;
-  padding: 1.3rem 1rem;
+  border-radius: 10px;
+  padding: 2rem 1.5rem;
   text-align: center;
 }
-.sem-card .s-icon { font-size: 1.9rem; margin-bottom: 0.45rem; }
+.sem-card .s-icon { font-size: 2.4rem; margin-bottom: 0.6rem; }
 .sem-card .s-label {
-  font-size: 0.82rem;
+  font-size: 0.88rem;
   text-transform: uppercase;
   letter-spacing: 0.07em;
   color: #888;
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.4rem;
 }
 .sem-card .s-value {
-  font-size: 1.05rem;
+  font-size: 1.15rem;
   font-weight: 600;
   color: #222;
-  line-height: 1.45;
+  line-height: 1.5;
 }
-.sem-card .s-value small { font-weight: 400; color: #555; }
+.sem-card .s-value small { font-weight: 400; color: #555; font-size: 1rem; }
 .sem-card .s-btn {
   display: inline-block;
-  margin-top: 0.65rem;
-  padding: 0.38rem 1rem;
+  margin-top: 0.8rem;
+  padding: 0.45rem 1.2rem;
   background: #0b4f6c;
   color: #fff !important;
   border-radius: 4px;
-  font-size: 0.93rem;
+  font-size: 1rem;
   text-decoration: none;
 }
 .sem-card .s-btn:hover { background: #0d2b45; }
@@ -170,6 +170,9 @@ classes: wide
 
 <!-- ═══ HERO ═══ -->
 <div class="sem-hero">
+  <img src="/images/WTM_WM_Seminar.png" alt="WTM World Model Seminar logo"
+       style="width:140px; height:140px; object-fit:contain; border-radius:16px;
+              background:rgba(255,255,255,0.12); padding:10px; margin-bottom:1rem;">
   <div class="eyebrow">University of Hamburg &nbsp;·&nbsp; Department of Informatics</div>
   <h1>WTM World Model Seminar</h1>
   <p class="tagline">
@@ -209,13 +212,6 @@ classes: wide
     <a class="s-btn" href="https://uni-hamburg.zoom.us/j/62688965566?pwd=gZWbwaI1g6ba1lhvu3L98LuDzvEvdw.1" target="_blank">Join Zoom ↗</a>
   </div>
 
-  <div class="sem-card">
-    <div class="s-icon">📂</div>
-    <div class="s-label">Presentation Files</div>
-    <div class="s-value">Google Drive</div>
-    <a class="s-btn" href="GOOGLE_DRIVE_LINK_HERE" target="_blank">Open Folder ↗</a>
-  </div>
-
 </div>
 
 <!-- ═══ ABOUT ═══ -->
@@ -253,7 +249,7 @@ classes: wide
         <div class="topic-title"><a href="https://arxiv.org/abs/2605.00080" target="_blank">World Model for Robot Learning: A Comprehensive Survey</a></div>
         <div class="topic-sub">Hou et al.</div>
       </td>
-      <td class="tba">TBA</td>
+      <td class="Presenter">Parsa</td>
       <td><span class="badge badge-room">[07-627]</span></td>
     </tr>
 
@@ -261,10 +257,10 @@ classes: wide
       <td class="num">02</td>
       <td>[June 3, 2026]</td>
       <td>
-        <div class="topic-title">TBA</div>
-        <div class="topic-sub tba">Paper / topic to be announced</div>
+        <div class="topic-title"><a href="https://gr1-manipulation.github.io/" target="_blank">Unleashing Large-Scale Video Generative Pre-training for Visual Robot Manipulation</a></div>
+        <div class="topic-sub">ByteDance Research</div>
       </td>
-      <td class="tba">TBA</td>
+      <td class="Presenter">Mostafa</td>
       <td><span class="badge badge-room">[07-627]</span></td>
     </tr>
 
@@ -272,32 +268,32 @@ classes: wide
       <td class="num">03</td>
       <td>[June 10, 2026]</td>
       <td>
-        <div class="topic-title">TBA</div>
-        <div class="topic-sub tba">Paper / topic to be announced</div>
+        <div class="topic-title">World Model as Simulator</div>
+        <div class="topic-sub"></div>
       </td>
-      <td class="tba">TBA</td>
+      <td class="Presenter">Thomas</td>
       <td><span class="badge badge-room">[07-627]</span></td>
     </tr>
 
     <tr>
       <td class="num">04</td>
-      <td>[Date TBD]</td>
+      <td>[June 17, 2026]</td>
       <td>
         <div class="topic-title">TBA</div>
-        <div class="topic-sub tba">Paper / topic to be announced</div>
+        <div class="topic-sub"></div>
       </td>
-      <td class="tba">TBA</td>
+      <td class="Presenter">Kun</td>
       <td><span class="badge badge-room">[Room TBD]</span></td>
     </tr>
 
     <tr>
       <td class="num">05</td>
-      <td>[Date TBD]</td>
+      <td>[June 24, 2026]</td>
       <td>
         <div class="topic-title">TBA</div>
-        <div class="topic-sub tba">Paper / topic to be announced</div>
+        <div class="topic-sub"></div>
       </td>
-      <td class="tba">TBA</td>
+      <td class="Presenter">TBA</td>
       <td><span class="badge badge-room">[Room TBD]</span></td>
     </tr>
 
@@ -307,7 +303,5 @@ classes: wide
 </table>
 
 <div class="sem-notice">
-  📬 <strong>Want to present?</strong> &nbsp;Please contact
-  <a href="mailto:kun.chu@uni-hamburg.de">kun.chu@uni-hamburg.de</a> to sign up for a slot.<br>
-  🔗 <strong>Zoom & Drive links</strong> are shared internally — request access via the same email if needed.
+  📬 <strong>Want to present?</strong> &nbsp;Please contact <a href="mailto:kun.chu@uni-hamburg.de">Kun</a> to sign up for a slot.<br>
 </div>
