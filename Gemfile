@@ -24,6 +24,3 @@ group :jekyll_plugins do
   gem "jekyll-feed"
   gem 'jekyll-sitemap'
 end
-
-# Local development only — not loaded by GitHub Pages
-gem 'hawkins', group: :development
