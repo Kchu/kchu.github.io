@@ -17,23 +17,23 @@ classes: wide
   text-align: center;
 }
 .sem-hero .eyebrow {
-  font-size: 0.78rem;
+  font-size: 0.92rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   opacity: 0.7;
   margin-bottom: 0.7rem;
 }
 .sem-hero h1 {
-  font-size: 2.2rem;
+  font-size: 2.6rem;
   font-weight: 700;
   color: #fff;
   margin: 0 0 0.6rem;
   border: none;
 }
 .sem-hero .tagline {
-  font-size: 1.05rem;
+  font-size: 1.2rem;
   opacity: 0.85;
-  max-width: 540px;
+  max-width: 560px;
   margin: 0 auto 1.3rem;
   line-height: 1.6;
 }
@@ -44,7 +44,7 @@ classes: wide
   color: #fff;
   padding: 0.45rem 1.3rem;
   border-radius: 20px;
-  font-size: 0.85rem;
+  font-size: 0.98rem;
   text-decoration: none;
   transition: background 0.2s;
 }
@@ -64,16 +64,16 @@ classes: wide
   padding: 1.3rem 1rem;
   text-align: center;
 }
-.sem-card .s-icon { font-size: 1.7rem; margin-bottom: 0.45rem; }
+.sem-card .s-icon { font-size: 1.9rem; margin-bottom: 0.45rem; }
 .sem-card .s-label {
-  font-size: 0.7rem;
+  font-size: 0.82rem;
   text-transform: uppercase;
   letter-spacing: 0.07em;
   color: #888;
   margin-bottom: 0.3rem;
 }
 .sem-card .s-value {
-  font-size: 0.92rem;
+  font-size: 1.05rem;
   font-weight: 600;
   color: #222;
   line-height: 1.45;
@@ -82,18 +82,18 @@ classes: wide
 .sem-card .s-btn {
   display: inline-block;
   margin-top: 0.65rem;
-  padding: 0.32rem 0.85rem;
+  padding: 0.38rem 1rem;
   background: #0b4f6c;
   color: #fff !important;
   border-radius: 4px;
-  font-size: 0.8rem;
+  font-size: 0.93rem;
   text-decoration: none;
 }
 .sem-card .s-btn:hover { background: #0d2b45; }
 
 /* ── Section headings ── */
 .sem-section-title {
-  font-size: 1.25rem;
+  font-size: 1.4rem;
   font-weight: 700;
   color: #0b4f6c;
   border-bottom: 2px solid #0b4f6c;
@@ -105,35 +105,37 @@ classes: wide
 .sem-table {
   width: 100%;
   border-collapse: collapse;
-  font-size: 0.88rem;
+  font-size: 1rem;
   margin-bottom: 0.5rem;
 }
 .sem-table thead th {
   background: #0b4f6c;
   color: #fff;
-  padding: 0.6rem 0.8rem;
+  padding: 0.7rem 0.9rem;
   text-align: left;
   font-weight: 600;
   white-space: nowrap;
 }
 .sem-table tbody td {
-  padding: 0.6rem 0.8rem;
+  padding: 0.7rem 0.9rem;
   border-bottom: 1px solid #e9ecef;
   vertical-align: top;
 }
 .sem-table tbody tr:nth-child(even) td { background: #f6f8fa; }
 .sem-table tbody tr:hover td { background: #e3f0f8; }
-.sem-table .num { color: #888; font-size: 0.8rem; }
+.sem-table .num { color: #888; font-size: 0.92rem; }
 .sem-table .tba { color: #aaa; font-style: italic; }
-.sem-table .topic-title { font-weight: 600; color: #1a1a1a; }
-.sem-table .topic-sub  { font-size: 0.8rem; color: #555; margin-top: 0.2rem; }
+.sem-table .topic-title { font-weight: 600; color: #1a1a1a; font-size: 1rem; }
+.sem-table .topic-title a { color: #0b4f6c; text-decoration: underline; }
+.sem-table .topic-title a:hover { color: #0a6e5f; }
+.sem-table .topic-sub  { font-size: 0.9rem; color: #555; margin-top: 0.2rem; }
 
 /* ── Badges ── */
 .badge {
   display: inline-block;
   border-radius: 3px;
-  font-size: 0.72rem;
-  padding: 0.1rem 0.45rem;
+  font-size: 0.84rem;
+  padding: 0.15rem 0.5rem;
   font-weight: 600;
 }
 .badge-room    { background:#e3f2fd; color:#1565c0; border:1px solid #90caf9; }
@@ -146,8 +148,8 @@ classes: wide
   background: #fffbe6;
   border-left: 4px solid #f0b429;
   border-radius: 0 6px 6px 0;
-  padding: 0.85rem 1.1rem;
-  font-size: 0.875rem;
+  padding: 0.95rem 1.2rem;
+  font-size: 1rem;
   color: #554400;
   margin-top: 1.5rem;
 }
@@ -158,9 +160,9 @@ classes: wide
   background: #f0f7ff;
   border: 1px solid #cce0f5;
   border-radius: 8px;
-  padding: 1.3rem 1.5rem;
-  font-size: 0.9rem;
-  line-height: 1.7;
+  padding: 1.4rem 1.6rem;
+  font-size: 1.05rem;
+  line-height: 1.75;
   color: #333;
 }
 .sem-about p { margin: 0; }
@@ -186,7 +188,7 @@ classes: wide
     <div class="s-icon">📅</div>
     <div class="s-label">When</div>
     <div class="s-value">
-      Every Wednesdays<br>
+      Every Wednesday<br>
       <small>[14:00 – 16:00 CET]</small>
     </div>
   </div>
@@ -246,35 +248,35 @@ classes: wide
 
     <tr>
       <td class="num">01</td>
-      <td>[Date TBD]</td>
+      <td>[May 27, 2026]</td>
       <td>
-        <div class="topic-title">[World Model for Robot Learning: A Comprehensive Survey](https://arxiv.org/abs/2605.00080)</div>
-        <div class="topic-sub tba"> Hou et al. </div>
+        <div class="topic-title"><a href="https://arxiv.org/abs/2605.00080" target="_blank">World Model for Robot Learning: A Comprehensive Survey</a></div>
+        <div class="topic-sub">Hou et al.</div>
       </td>
-      <td class="speaker">Parsa</td>
-      <td><span class="badge badge-room">[Room TBD]</span></td>
+      <td class="tba">TBA</td>
+      <td><span class="badge badge-room">[07-627]</span></td>
     </tr>
 
     <tr>
       <td class="num">02</td>
-      <td>[Date TBD]</td>
+      <td>[June 3, 2026]</td>
       <td>
         <div class="topic-title">TBA</div>
         <div class="topic-sub tba">Paper / topic to be announced</div>
       </td>
-      <td class="speaker">TBA</td>
-      <td><span class="badge badge-room">[Room TBD]</span></td>
+      <td class="tba">TBA</td>
+      <td><span class="badge badge-room">[07-627]</span></td>
     </tr>
 
     <tr>
       <td class="num">03</td>
-      <td>[Date TBD]</td>
+      <td>[June 10, 2026]</td>
       <td>
         <div class="topic-title">TBA</div>
         <div class="topic-sub tba">Paper / topic to be announced</div>
       </td>
-      <td class="speaker">TBA</td>
-      <td><span class="badge badge-room">[Room TBD]</span></td>
+      <td class="tba">TBA</td>
+      <td><span class="badge badge-room">[07-627]</span></td>
     </tr>
 
     <tr>
@@ -284,7 +286,7 @@ classes: wide
         <div class="topic-title">TBA</div>
         <div class="topic-sub tba">Paper / topic to be announced</div>
       </td>
-      <td class="speaker">TBA</td>
+      <td class="tba">TBA</td>
       <td><span class="badge badge-room">[Room TBD]</span></td>
     </tr>
 
@@ -295,7 +297,7 @@ classes: wide
         <div class="topic-title">TBA</div>
         <div class="topic-sub tba">Paper / topic to be announced</div>
       </td>
-      <td class="speaker">TBA</td>
+      <td class="tba">TBA</td>
       <td><span class="badge badge-room">[Room TBD]</span></td>
     </tr>
 
