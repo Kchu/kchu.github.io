@@ -250,7 +250,7 @@ classes: wide
         <div class="topic-sub">Hou et al.</div>
       </td>
       <td class="Presenter">Parsa</td>
-      <td><span class="badge badge-room">[07-627]</span></td>
+      <td><span class="badge badge-room">[Room 07-627]</span></td>
     </tr>
 
     <tr>
@@ -261,7 +261,7 @@ classes: wide
         <div class="topic-sub">ByteDance Research</div>
       </td>
       <td class="Presenter">Mostafa</td>
-      <td><span class="badge badge-room">[07-627]</span></td>
+      <td><span class="badge badge-room">[Room 07-627]</span></td>
     </tr>
 
     <tr>
@@ -272,7 +272,7 @@ classes: wide
         <div class="topic-sub"></div>
       </td>
       <td class="Presenter">Thomas</td>
-      <td><span class="badge badge-room">[07-627]</span></td>
+      <td><span class="badge badge-room">[Room 07-627]</span></td>
     </tr>
 
     <tr>
@@ -283,7 +283,7 @@ classes: wide
         <div class="topic-sub"></div>
       </td>
       <td class="Presenter">Kun</td>
-      <td><span class="badge badge-room">[Room TBD]</span></td>
+      <td><span class="badge badge-room">[Room 07-627]</span></td>
     </tr>
 
     <tr>
@@ -294,7 +294,7 @@ classes: wide
         <div class="topic-sub"></div>
       </td>
       <td class="Presenter">TBA</td>
-      <td><span class="badge badge-room">[Room TBD]</span></td>
+      <td><span class="badge badge-room">[Room 07-627]</span></td>
     </tr>
 
     <!-- ── Add more rows by copying the block above ── -->
