@@ -171,8 +171,8 @@ classes: wide
 <!-- ═══ HERO ═══ -->
 <div class="sem-hero">
   <img src="/images/WTM_WM_Seminar.png" alt="WTM World Model Seminar logo"
-       style="width:140px; height:140px; object-fit:contain; border-radius:16px;
-              background:rgba(255,255,255,0.12); padding:10px; margin-bottom:1rem;">
+       style="width:240px; height:240px; object-fit:contain; border-radius:20px;
+              background:rgba(255,255,255,0.12); padding:14px; margin-bottom:1.2rem;">
   <div class="eyebrow">University of Hamburg &nbsp;·&nbsp; Department of Informatics</div>
   <h1>WTM World Model Seminar</h1>
   <p class="tagline">
