@@ -249,7 +249,7 @@ classes: wide
     <div class="s-label">Next Session</div>
     <div class="s-value">
       Wednesdays<br>
-      <small>[14:00 – 16:00 CET]</small>
+      <small>[14:00 – 16:00 CEST]</small>
     </div>
   </div>
 
