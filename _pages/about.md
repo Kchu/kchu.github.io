@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About me"
+title: "All about me"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -23,10 +23,10 @@ Through my work, I aim to bridge high-level reasoning and planning with low-leve
 
 The Future of Embodied Intelligence is Now.
 
-## WTM WM Seminar
+# All about world models
 In May 2026, I initiated the [WTM World Model Seminar](https://kchu.github.io/seminar/), an ongoing seminar series in our group where colleagues present and discuss the latest work on world models, share ideas across projects, and explore how these advances can inform our own research. Anyone interested in world models is warmly welcome to join us — feel free to reach out or simply drop by!
 
-## What's New
+# All about experience
 
 [2026.01] Our paper, RankCut: A Ranking-Based LLM Approach to Extractive Summarization for Transcript-Based Video Editing, has been accepted to [IUI 2026](https://iui.acm.org/2026/). This project was co-supervised with the Adobe Research team. Congrats, Sana!
 
