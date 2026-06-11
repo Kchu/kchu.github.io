@@ -301,60 +301,71 @@ classes: wide
 
     <tr>
       <td class="num">01</td>
-      <td>[May 27, 2026]</td>
+      <td>May 27, 2026</td>
       <td>
         <div class="topic-title"><a href="https://arxiv.org/abs/2605.00080" target="_blank">World Model for Robot Learning: A Comprehensive Survey</a></div>
         <div class="topic-sub">Hou et al.</div>
         <a class="presentation" href="/files/WTM_WM_Seminar_Presentation_1.pdf" target="_blank">Slides</a>
       </td>
       <td class="Presenter">Parsa</td>
-      <td><span class="badge badge-room">[07-627]</span></td>
+      <td><span class="badge badge-room">07-627</span></td>
     </tr>
 
     <tr>
       <td class="num">02</td>
-      <td>[June 3, 2026]</td>
+      <td>June 3, 2026</td>
       <td>
         <div class="topic-title"><a href="https://gr1-manipulation.github.io/" target="_blank">Unleashing Large-Scale Video Generative Pre-training for Visual Robot Manipulation</a></div>
         <div class="topic-sub">ByteDance Research</div>
         <a class="presentation" href="/files/WTM_WM_Seminar_Presentation_2.pdf" target="_blank">Slides</a>
       </td>
       <td class="Presenter">Mostafa</td>
-      <td><span class="badge badge-room">[07-627]</span></td>
+      <td><span class="badge badge-room">07-627</span></td>
     </tr>
 
     <tr>
       <td class="num">03</td>
-      <td>[June 10, 2026]</td>
+      <td>June 10, 2026</td>
       <td>
         <div class="topic-title">World Model as Simulator</div>
         <div class="topic-sub"></div>
         <a class="presentation" href="/files/WTM_WM_Seminar_Presentation_3.pdf" target="_blank">Slides</a>
       </td>
       <td class="Presenter">Thomas</td>
-      <td><span class="badge badge-room">[07-627]</span></td>
+      <td><span class="badge badge-room">07-627</span></td>
     </tr>
 
     <tr>
       <td class="num">04</td>
-      <td>[June 17, 2026]</td>
+      <td>June 17, 2026</td>
       <td>
         <div class="topic-title">TBA</div>
         <div class="topic-sub"></div>
       </td>
       <td class="Presenter">Kun</td>
-      <td><span class="badge badge-room">[07-627]</span></td>
+      <td><span class="badge badge-room">07-627</span></td>
     </tr>
 
     <tr>
       <td class="num">05</td>
-      <td>[June 24, 2026]</td>
+      <td>June 24, 2026</td>
       <td>
         <div class="topic-title">TBA</div>
         <div class="topic-sub"></div>
       </td>
       <td class="Presenter">TBA</td>
-      <td><span class="badge badge-room">[07-627]</span></td>
+      <td><span class="badge badge-room">07-627</span></td>
+    </tr>
+
+    <tr>
+      <td class="num">05</td>
+      <td>June 24, 2026</td>
+      <td>
+        <div class="topic-title">TBA</div>
+        <div class="topic-sub"></div>
+      </td>
+      <td class="Presenter">TBA</td>
+      <td><span class="badge badge-room">07-627</span></td>
     </tr>
 
     <!-- ── Add more rows by copying the block above ── -->

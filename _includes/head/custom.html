@@ -45,7 +45,7 @@ function initSeminarCal() {
   var wdays  = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
   var today  = new Date(); today.setHours(0, 0, 0, 0);
 
-  // Prefer the real schedule: take the soonest date in the table that is today or later.
+  /* Prefer the real schedule: take the soonest date in the table that is today or later. */
   var next = null;
   var rows = document.querySelectorAll('.sem-table tbody tr');
   rows.forEach(function (tr) {
@@ -59,7 +59,7 @@ function initSeminarCal() {
     }
   });
 
-  // Fallback: next Wednesday from today.
+  /* Fallback: next Wednesday from today. */
   if (next === null) {
     next = new Date(today);
     next.setDate(next.getDate() + ((3 - next.getDay() + 7) % 7));
@@ -70,8 +70,7 @@ function initSeminarCal() {
   el.querySelector('.cal-wday').textContent  = wdays[next.getDay()];
 }
 
-// Run now if the DOM is already parsed (handles bfcache / late execution),
-// otherwise wait for it.
+/* Run now if the DOM is already parsed, otherwise wait for it. */
 if (document.readyState === 'loading') {
   document.addEventListener('DOMContentLoaded', initSeminarCal);
 } else {
