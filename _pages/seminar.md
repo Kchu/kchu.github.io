@@ -365,22 +365,3 @@ classes: wide
 <div class="sem-notice">
   📬 <strong>Want to present?</strong> &nbsp;Please contact <a href="mailto:kun.chu@uni-hamburg.de">Kun</a> to sign up for a slot.<br>
 </div>
-
-<script>
-(function () {
-  var el = document.getElementById('cal-next');
-  if (!el) return;
-
-  // Find the next Wednesday (today counts if today is Wednesday).
-  var now = new Date();
-  var next = new Date(now.getFullYear(), now.getMonth(), now.getDate());
-  var WED = 3; // 0=Sun ... 3=Wed
-  var diff = (WED - next.getDay() + 7) % 7;
-  next.setDate(next.getDate() + diff);
-
-  var months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
-  el.querySelector('.cal-month').textContent = months[next.getMonth()];
-  el.querySelector('.cal-day').textContent   = next.getDate();
-  el.querySelector('.cal-wday').textContent  = 'Wed';
-})();
-</script>

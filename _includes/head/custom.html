@@ -35,4 +35,22 @@
 </script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script>
 
+<!-- Seminar: live calendar icon showing the next Wednesday -->
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var el = document.getElementById('cal-next');
+  if (!el) return;
+
+  var now = new Date();
+  var next = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+  var WED = 3; // 0=Sun ... 3=Wed
+  next.setDate(next.getDate() + ((WED - next.getDay() + 7) % 7));
+
+  var months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  el.querySelector('.cal-month').textContent = months[next.getMonth()];
+  el.querySelector('.cal-day').textContent   = next.getDate();
+  el.querySelector('.cal-wday').textContent  = 'Wed';
+});
+</script>
+
 <!-- end custom head snippets -->
