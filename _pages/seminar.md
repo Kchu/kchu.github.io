@@ -65,6 +65,42 @@ classes: wide
   text-align: center;
 }
 .sem-card .s-icon { font-size: 2.4rem; margin-bottom: 0.6rem; }
+
+/* ── Live calendar icon (next seminar date) ── */
+.cal-icon {
+  display: inline-block;
+  width: 56px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.18);
+  background: #fff;
+  margin-bottom: 0.6rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1;
+}
+.cal-icon .cal-month {
+  background: #c0392b;
+  color: #fff;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 0.22rem 0;
+}
+.cal-icon .cal-day {
+  color: #222;
+  font-size: 1.7rem;
+  font-weight: 700;
+  padding: 0.28rem 0 0.32rem;
+}
+.cal-icon .cal-wday {
+  color: #888;
+  font-size: 0.62rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding-bottom: 0.3rem;
+}
 .sem-card .s-label {
   font-size: 0.88rem;
   text-transform: uppercase;
@@ -194,7 +230,7 @@ classes: wide
   <div class="eyebrow">University of Hamburg &nbsp;·&nbsp; Department of Informatics</div>
   <h1>WTM World Model Seminar</h1>
   <p class="tagline">
-    A weekly reading and presentation seminar on world models, vision-language action models, and embodied intelligence — bridging theory and robotics.
+    A weekly reading and presentation seminar on world models, vision-language-action models, and embodied intelligence — bridging theory and robotics.
   </p>
   <a class="hero-btn" href="https://www.inf.uni-hamburg.de/en/inst/ab/wtm.html" target="_blank">
     Knowledge Technology Group (WTM) ↗
@@ -205,10 +241,14 @@ classes: wide
 <div class="sem-cards">
 
   <div class="sem-card">
-    <div class="s-icon">📅</div>
-    <div class="s-label">When</div>
+    <div class="cal-icon" id="cal-next">
+      <div class="cal-month">—</div>
+      <div class="cal-day">–</div>
+      <div class="cal-wday">Wed</div>
+    </div>
+    <div class="s-label">Next Session</div>
     <div class="s-value">
-      Every Wednesday<br>
+      Wednesdays<br>
       <small>[14:00 – 16:00 CET]</small>
     </div>
   </div>
@@ -325,3 +365,22 @@ classes: wide
 <div class="sem-notice">
   📬 <strong>Want to present?</strong> &nbsp;Please contact <a href="mailto:kun.chu@uni-hamburg.de">Kun</a> to sign up for a slot.<br>
 </div>
+
+<script>
+(function () {
+  var el = document.getElementById('cal-next');
+  if (!el) return;
+
+  // Find the next Wednesday (today counts if today is Wednesday).
+  var now = new Date();
+  var next = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+  var WED = 3; // 0=Sun ... 3=Wed
+  var diff = (WED - next.getDay() + 7) % 7;
+  next.setDate(next.getDate() + diff);
+
+  var months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  el.querySelector('.cal-month').textContent = months[next.getMonth()];
+  el.querySelector('.cal-day').textContent   = next.getDate();
+  el.querySelector('.cal-wday').textContent  = 'Wed';
+})();
+</script>
