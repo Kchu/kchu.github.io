@@ -130,6 +130,24 @@ classes: wide
 .sem-table .topic-title a:hover { color: #0a6e5f; }
 .sem-table .topic-sub  { font-size: 0.9rem; color: #555; margin-top: 0.2rem; }
 
+/* ── Presentation download link ── */
+.presentation {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin-top: 0.4rem;
+  padding: 0.2rem 0.6rem;
+  background: #eef4f8;
+  border: 1px solid #cfe0ec;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #0b4f6c !important;
+  text-decoration: none;
+}
+.presentation:hover { background: #0b4f6c; color: #fff !important; border-color: #0b4f6c; }
+.presentation::before { content: "📄"; font-size: 0.95rem; }
+
 /* ── Badges ── */
 .badge {
   display: inline-block;
@@ -247,6 +265,7 @@ classes: wide
       <td>
         <div class="topic-title"><a href="https://arxiv.org/abs/2605.00080" target="_blank">World Model for Robot Learning: A Comprehensive Survey</a></div>
         <div class="topic-sub">Hou et al.</div>
+        <a class="presentation" href="/files/WTM_WM_Seminar_Presentation_1.pdf" target="_blank">Slides</a>
       </td>
       <td class="Presenter">Parsa</td>
       <td><span class="badge badge-room">[07-627]</span></td>
@@ -258,6 +277,7 @@ classes: wide
       <td>
         <div class="topic-title"><a href="https://gr1-manipulation.github.io/" target="_blank">Unleashing Large-Scale Video Generative Pre-training for Visual Robot Manipulation</a></div>
         <div class="topic-sub">ByteDance Research</div>
+        <a class="presentation" href="/files/WTM_WM_Seminar_Presentation_2.pdf" target="_blank">Slides</a>
       </td>
       <td class="Presenter">Mostafa</td>
       <td><span class="badge badge-room">[07-627]</span></td>
@@ -269,6 +289,7 @@ classes: wide
       <td>
         <div class="topic-title">World Model as Simulator</div>
         <div class="topic-sub"></div>
+        <a class="presentation" href="/files/WTM_WM_Seminar_Presentation_3.pdf" target="_blank">Slides</a>
       </td>
       <td class="Presenter">Thomas</td>
       <td><span class="badge badge-room">[07-627]</span></td>
