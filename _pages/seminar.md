@@ -301,7 +301,7 @@ classes: wide
 
     <tr>
       <td class="num">01</td>
-      <td>May 27, 2026</td>
+      <td>May 27 2026</td>
       <td>
         <div class="topic-title"><a href="https://arxiv.org/abs/2605.00080" target="_blank">World Model for Robot Learning: A Comprehensive Survey</a></div>
         <div class="topic-sub">Hou et al.</div>
@@ -313,7 +313,7 @@ classes: wide
 
     <tr>
       <td class="num">02</td>
-      <td>June 3, 2026</td>
+      <td>June 3 2026</td>
       <td>
         <div class="topic-title"><a href="https://gr1-manipulation.github.io/" target="_blank">Unleashing Large-Scale Video Generative Pre-training for Visual Robot Manipulation</a></div>
         <div class="topic-sub">ByteDance Research</div>
@@ -325,7 +325,7 @@ classes: wide
 
     <tr>
       <td class="num">03</td>
-      <td>June 10, 2026</td>
+      <td>June 10 2026</td>
       <td>
         <div class="topic-title">World Model as Simulator</div>
         <div class="topic-sub"></div>
@@ -337,7 +337,7 @@ classes: wide
 
     <tr>
       <td class="num">04</td>
-      <td>June 17, 2026</td>
+      <td>June 17 2026</td>
       <td>
         <div class="topic-title">TBA</div>
         <div class="topic-sub"></div>
@@ -348,7 +348,7 @@ classes: wide
 
     <tr>
       <td class="num">05</td>
-      <td>June 24, 2026</td>
+      <td>June 24 2026</td>
       <td>
         <div class="topic-title">TBA</div>
         <div class="topic-sub"></div>
@@ -359,7 +359,7 @@ classes: wide
 
     <tr>
       <td class="num">05</td>
-      <td>June 24, 2026</td>
+      <td>June 24 2026</td>
       <td>
         <div class="topic-title">TBA</div>
         <div class="topic-sub"></div>
