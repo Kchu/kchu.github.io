@@ -16,9 +16,10 @@
     @include clearfix;
     padding: 1em 1em 1em;
     font-family: $sans-serif-narrow;
+    max-width: 80%;
 
     @include breakpoint($x-large) {
-      max-width: $x-large;
+      max-width: 80%;
     }
 
     nav {

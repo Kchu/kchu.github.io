@@ -7,11 +7,11 @@ redirect_from:
   - /about/
   - /about.html
 ---
-4th-year PhD student in Computer Science, University of Hamburg, [Knowledge Technology (WTM)](https://www.inf.uni-hamburg.de/en/inst/ab/wtm.html) group, advised by [Prof. Stefan Wermter](https://www.inf.uni-hamburg.de/en/inst/ab/wtm/people/wermter.html).
+PhD student in Computer Science, University of Hamburg, [Knowledge Technology (WTM)](https://www.inf.uni-hamburg.de/en/inst/ab/wtm.html) group, advised by [Prof. Stefan Wermter](https://www.inf.uni-hamburg.de/en/inst/ab/wtm/people/wermter.html).
 
-M.Sc in Computer Science and Technology, [University of Electronic Science and Technology of China](https://en.uestc.edu.cn/), advised by [Prof. William Zhu](https://scholar.google.com/citations?hl=zh-CN&user=GIwXoWAAAAAJ), 2018-2021.
+<!-- M.Sc in Computer Science and Technology, [University of Electronic Science and Technology of China](https://en.uestc.edu.cn/), advised by [Prof. William Zhu](https://scholar.google.com/citations?hl=zh-CN&user=GIwXoWAAAAAJ).
 
-B.E. in Spatial Information and Digital Technology, [University of Electronic Science and Technology of China](https://en.uestc.edu.cn/), advised by [Prof. Fen Chen](https://scholar.google.com/citations?hl=zh-CN&user=U0VZ1IkAAAAJ), 2014-2018.
+B.E. in Spatial Information and Digital Technology, [University of Electronic Science and Technology of China](https://en.uestc.edu.cn/), advised by [Prof. Fen Chen](https://scholar.google.com/citations?hl=zh-CN&user=U0VZ1IkAAAAJ). -->
 
 I am deeply interested in the critical methodologies driving Embodied Intelligence, particularly Reinforcement Learning, Large Language Models (LLMs), and Robotics. In humanoid robot development, three key components shape their capabilities: the Brain, the Cerebellum, and the Body. My current research focuses on two of these aspects:
 
