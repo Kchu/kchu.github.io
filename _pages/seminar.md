@@ -507,6 +507,7 @@ function downloadICS(el) {
         <div class="topic-title">Vision-Action Coupling in World Model Policies</div>
         <div class="topic-sub"></div>
         <div class="topic-links">
+          <a class="presentation paper" href="https://arxiv.org/abs/2605.00080" target="_blank">Paper</a>
           <a class="presentation" href="/files/WTM_WM_Seminar_Presentation_4.pdf" target="_blank">Slides</a>
         </div>
       </td>
