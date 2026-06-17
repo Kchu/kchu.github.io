@@ -7,6 +7,18 @@ classes: wide
 ---
 
 <style>
+/* ── Width override (this page only) ── */
+#main {
+  max-width: 80%;
+}
+.page {
+  width: 100%;
+  padding-right: 0 !important;
+}
+@media (min-width: 80em) {
+  #main { max-width: 80%; }
+}
+
 /* ── Hero ── */
 .sem-hero {
   background: linear-gradient(135deg, #0d2b45 0%, #0b4f6c 55%, #0a6e5f 100%);
