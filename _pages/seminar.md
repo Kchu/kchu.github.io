@@ -498,6 +498,7 @@ function downloadICS(el) {
         <div class="topic-title">World Model as Simulator</div>
         <div class="topic-sub"></div>
         <div class="topic-links">
+          <a class="presentation paper" href="https://openaccess.thecvf.com/content/CVPR2026/papers/Tang_DreamSAC_Learning_Hamiltonian_World_Models_via_Symmetry_Exploration_CVPR_2026_paper.pdf" target="_blank">Paper</a>
           <a class="presentation" href="/files/WTM_WM_Seminar_Presentation_3.pdf" target="_blank">Slides</a>
         </div>
       </td>
