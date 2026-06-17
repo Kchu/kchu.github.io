@@ -339,8 +339,9 @@ classes: wide
       <td class="num">04</td>
       <td>June 17 2026</td>
       <td>
-        <div class="topic-title">TBA</div>
+        <div class="topic-title">Vision-Action Coupling in World Model Policies</div>
         <div class="topic-sub"></div>
+        <a class="presentation" href="/files/WTM_WM_Seminar_Presentation_4.pdf" target="_blank">Slides</a>
       </td>
       <td class="Presenter">Kun</td>
       <td><span class="badge badge-room">07-627</span></td>
@@ -350,16 +351,27 @@ classes: wide
       <td class="num">05</td>
       <td>June 24 2026</td>
       <td>
-        <div class="topic-title">TBA</div>
+        <div class="topic-title"><a href="https://latentactionpretraining.github.io/" target="_blank">LAPA: Latent Action Pretraining from Videos</a></div>
         <div class="topic-sub"></div>
       </td>
-      <td class="Presenter">TBA</td>
+      <td class="Presenter">Parsa</td>
       <td><span class="badge badge-room">07-627</span></td>
     </tr>
 
     <tr>
-      <td class="num">05</td>
-      <td>June 24 2026</td>
+      <td class="num">06</td>
+      <td>July 1 2026</td>
+      <td>
+        <div class="topic-title"><a href="https://nimolty.github.io/Seer/" target="_blank">Predictive Inverse Dynamics Models are Scalable Learners for Robotic Manipulation</a></div>
+        <div class="topic-sub"></div>
+      </td>
+      <td class="Presenter">Mostafa</td>
+      <td><span class="badge badge-room">07-627</span></td>
+    </tr>
+
+    <tr>
+      <td class="num">07</td>
+      <td>July 8 2026</td>
       <td>
         <div class="topic-title">TBA</div>
         <div class="topic-sub"></div>

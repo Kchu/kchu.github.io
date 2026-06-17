@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Blog CK"
+title                    : "Kevin Blog"
 title_separator          : "-"
 name                     : &name "Kun Chu"
 description              : &description "My Blog"
