@@ -184,6 +184,22 @@ classes: wide
 .presentation:hover { background: #0b4f6c; color: #fff !important; border-color: #0b4f6c; }
 .presentation::before { content: "📄"; font-size: 0.95rem; }
 
+/* ── Topic link row (Paper / Slides) ── */
+.topic-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.45rem;
+}
+.topic-links .presentation { margin-top: 0; }
+.presentation.paper {
+  background: #eef8f0;
+  border-color: #cfe9d8;
+  color: #0a6e5f !important;
+}
+.presentation.paper:hover { background: #0a6e5f; color: #fff !important; border-color: #0a6e5f; }
+.presentation.paper::before { content: "🔗"; }
+
 /* ── Badges ── */
 .badge {
   display: inline-block;
@@ -220,7 +236,120 @@ classes: wide
   color: #333;
 }
 .sem-about p { margin: 0; }
+
+/* ── Clickable date chip (table) ── */
+.date-chip {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  width: 54px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+  background: #fff;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  text-decoration: none !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  transition: transform 0.15s, box-shadow 0.15s;
+  line-height: 1;
+  vertical-align: top;
+}
+.date-chip:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 12px rgba(0,0,0,0.22);
+}
+.date-chip .dc-month {
+  background: #c0392b;
+  color: #fff;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 0.22rem 0;
+  width: 100%;
+  text-align: center;
+}
+.date-chip .dc-day {
+  color: #222;
+  font-size: 1.45rem;
+  font-weight: 700;
+  padding: 0.18rem 0 0;
+  text-align: center;
+  width: 100%;
+}
+.date-chip .dc-wday {
+  color: #888;
+  font-size: 0.58rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  text-align: center;
+  width: 100%;
+  padding-bottom: 0.1rem;
+}
+.date-chip .dc-add {
+  font-size: 0.6rem;
+  color: #0b4f6c;
+  font-weight: 700;
+  padding: 0.2rem 0 0.22rem;
+  text-align: center;
+  background: #e4f0f8;
+  width: 100%;
+  letter-spacing: 0.03em;
+}
+.date-chip:hover .dc-add { background: #0b4f6c; color: #fff; }
+.date-chip-past .dc-month { background: #999; }
+.date-chip-past .dc-day   { color: #999; }
+.date-chip-past .dc-wday  { color: #bbb; }
+.date-chip-past .dc-add   { background: #f0f0f0; color: #aaa; }
+.date-chip-past:hover .dc-add { background: #888; color: #fff; }
 </style>
+
+<script>
+function downloadICS(el) {
+  var date      = el.dataset.date;      // "YYYYMMDD"
+  var num       = el.dataset.num  || '';
+  var title     = el.dataset.title|| 'WTM World Model Seminar';
+  var presenter = el.dataset.presenter || '';
+
+  var dtStart = date + "T120000Z";  // 14:00 CEST = 12:00 UTC
+  var dtEnd   = date + "T140000Z";  // 16:00 CEST = 14:00 UTC
+
+  var summary = "WTM World Model Seminar #" + num +
+                (title && title !== "TBA" ? " – " + title : "");
+  var desc = (presenter ? "Presenter: " + presenter + "\\n" : "") +
+             "Join Zoom: https://uni-hamburg.zoom.us/j/62688965566";
+
+  var uid = "wtm-sem-" + num + "-" + date + "@kchu.github.io";
+
+  var lines = [
+    "BEGIN:VCALENDAR",
+    "VERSION:2.0",
+    "PRODID:-//WTM World Model Seminar//kchu.github.io//EN",
+    "CALSCALE:GREGORIAN",
+    "METHOD:PUBLISH",
+    "BEGIN:VEVENT",
+    "UID:" + uid,
+    "DTSTART:" + dtStart,
+    "DTEND:" + dtEnd,
+    "SUMMARY:" + summary,
+    "DESCRIPTION:" + desc,
+    "LOCATION:House of Informatics\\, Bundesstr. 56b\\, 20146 Hamburg (Room 07-627)",
+    "URL:https://uni-hamburg.zoom.us/j/62688965566",
+    "END:VEVENT",
+    "END:VCALENDAR"
+  ];
+
+  var blob = new Blob([lines.join("\r\n")], {type: "text/calendar;charset=utf-8"});
+  var a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = "wtm-seminar-" + (num || "session") + ".ics";
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+}
+</script>
 
 <!-- ═══ HERO ═══ -->
 <div class="sem-hero">
@@ -301,11 +430,21 @@ classes: wide
 
     <tr>
       <td class="num">01</td>
-      <td>May 27 2026</td>
+      <td><a class="date-chip date-chip-past" href="#" title="Add to calendar"
+            data-num="01" data-date="20260527"
+            data-title="World Model for Robot Learning: A Comprehensive Survey"
+            data-presenter="Parsa"
+            onclick="downloadICS(this);return false;">
+        <div class="dc-month">May</div><div class="dc-day">27</div>
+        <div class="dc-wday">Wed</div><div class="dc-add">+ Cal</div>
+      </a></td>
       <td>
-        <div class="topic-title"><a href="https://arxiv.org/abs/2605.00080" target="_blank">World Model for Robot Learning: A Comprehensive Survey</a></div>
+        <div class="topic-title">World Model for Robot Learning: A Comprehensive Survey</div>
         <div class="topic-sub">Hou et al.</div>
-        <a class="presentation" href="/files/WTM_WM_Seminar_Presentation_1.pdf" target="_blank">Slides</a>
+        <div class="topic-links">
+          <a class="presentation paper" href="https://arxiv.org/abs/2605.00080" target="_blank">Paper</a>
+          <a class="presentation" href="/files/WTM_WM_Seminar_Presentation_1.pdf" target="_blank">Slides</a>
+        </div>
       </td>
       <td class="Presenter">Parsa</td>
       <td><span class="badge badge-room">07-627</span></td>
@@ -313,11 +452,21 @@ classes: wide
 
     <tr>
       <td class="num">02</td>
-      <td>June 3 2026</td>
+      <td><a class="date-chip date-chip-past" href="#" title="Add to calendar"
+            data-num="02" data-date="20260603"
+            data-title="Unleashing Large-Scale Video Generative Pre-training for Visual Robot Manipulation"
+            data-presenter="Mostafa"
+            onclick="downloadICS(this);return false;">
+        <div class="dc-month">Jun</div><div class="dc-day">3</div>
+        <div class="dc-wday">Wed</div><div class="dc-add">+ Cal</div>
+      </a></td>
       <td>
-        <div class="topic-title"><a href="https://gr1-manipulation.github.io/" target="_blank">Unleashing Large-Scale Video Generative Pre-training for Visual Robot Manipulation</a></div>
+        <div class="topic-title">Unleashing Large-Scale Video Generative Pre-training for Visual Robot Manipulation</div>
         <div class="topic-sub">ByteDance Research</div>
-        <a class="presentation" href="/files/WTM_WM_Seminar_Presentation_2.pdf" target="_blank">Slides</a>
+        <div class="topic-links">
+          <a class="presentation paper" href="https://gr1-manipulation.github.io/" target="_blank">Paper</a>
+          <a class="presentation" href="/files/WTM_WM_Seminar_Presentation_2.pdf" target="_blank">Slides</a>
+        </div>
       </td>
       <td class="Presenter">Mostafa</td>
       <td><span class="badge badge-room">07-627</span></td>
@@ -325,11 +474,20 @@ classes: wide
 
     <tr>
       <td class="num">03</td>
-      <td>June 10 2026</td>
+      <td><a class="date-chip date-chip-past" href="#" title="Add to calendar"
+            data-num="03" data-date="20260610"
+            data-title="World Model as Simulator"
+            data-presenter="Thomas"
+            onclick="downloadICS(this);return false;">
+        <div class="dc-month">Jun</div><div class="dc-day">10</div>
+        <div class="dc-wday">Wed</div><div class="dc-add">+ Cal</div>
+      </a></td>
       <td>
         <div class="topic-title">World Model as Simulator</div>
         <div class="topic-sub"></div>
-        <a class="presentation" href="/files/WTM_WM_Seminar_Presentation_3.pdf" target="_blank">Slides</a>
+        <div class="topic-links">
+          <a class="presentation" href="/files/WTM_WM_Seminar_Presentation_3.pdf" target="_blank">Slides</a>
+        </div>
       </td>
       <td class="Presenter">Thomas</td>
       <td><span class="badge badge-room">07-627</span></td>
@@ -337,11 +495,20 @@ classes: wide
 
     <tr>
       <td class="num">04</td>
-      <td>June 17 2026</td>
+      <td><a class="date-chip" href="#" title="Add to calendar"
+            data-num="04" data-date="20260617"
+            data-title="Vision-Action Coupling in World Model Policies"
+            data-presenter="Kun"
+            onclick="downloadICS(this);return false;">
+        <div class="dc-month">Jun</div><div class="dc-day">17</div>
+        <div class="dc-wday">Wed</div><div class="dc-add">+ Cal</div>
+      </a></td>
       <td>
         <div class="topic-title">Vision-Action Coupling in World Model Policies</div>
         <div class="topic-sub"></div>
-        <a class="presentation" href="/files/WTM_WM_Seminar_Presentation_4.pdf" target="_blank">Slides</a>
+        <div class="topic-links">
+          <a class="presentation" href="/files/WTM_WM_Seminar_Presentation_4.pdf" target="_blank">Slides</a>
+        </div>
       </td>
       <td class="Presenter">Kun</td>
       <td><span class="badge badge-room">07-627</span></td>
@@ -349,10 +516,20 @@ classes: wide
 
     <tr>
       <td class="num">05</td>
-      <td>June 24 2026</td>
+      <td><a class="date-chip" href="#" title="Add to calendar"
+            data-num="05" data-date="20260624"
+            data-title="LAPA: Latent Action Pretraining from Videos"
+            data-presenter="Parsa"
+            onclick="downloadICS(this);return false;">
+        <div class="dc-month">Jun</div><div class="dc-day">24</div>
+        <div class="dc-wday">Wed</div><div class="dc-add">+ Cal</div>
+      </a></td>
       <td>
-        <div class="topic-title"><a href="https://latentactionpretraining.github.io/" target="_blank">LAPA: Latent Action Pretraining from Videos</a></div>
+        <div class="topic-title">LAPA: Latent Action Pretraining from Videos</div>
         <div class="topic-sub"></div>
+        <div class="topic-links">
+          <a class="presentation paper" href="https://latentactionpretraining.github.io/" target="_blank">Paper</a>
+        </div>
       </td>
       <td class="Presenter">Parsa</td>
       <td><span class="badge badge-room">07-627</span></td>
@@ -360,10 +537,20 @@ classes: wide
 
     <tr>
       <td class="num">06</td>
-      <td>July 1 2026</td>
+      <td><a class="date-chip" href="#" title="Add to calendar"
+            data-num="06" data-date="20260701"
+            data-title="Predictive Inverse Dynamics Models are Scalable Learners for Robotic Manipulation"
+            data-presenter="Mostafa"
+            onclick="downloadICS(this);return false;">
+        <div class="dc-month">Jul</div><div class="dc-day">1</div>
+        <div class="dc-wday">Wed</div><div class="dc-add">+ Cal</div>
+      </a></td>
       <td>
-        <div class="topic-title"><a href="https://nimolty.github.io/Seer/" target="_blank">Predictive Inverse Dynamics Models are Scalable Learners for Robotic Manipulation</a></div>
+        <div class="topic-title">Predictive Inverse Dynamics Models are Scalable Learners for Robotic Manipulation</div>
         <div class="topic-sub"></div>
+        <div class="topic-links">
+          <a class="presentation paper" href="https://nimolty.github.io/Seer/" target="_blank">Paper</a>
+        </div>
       </td>
       <td class="Presenter">Mostafa</td>
       <td><span class="badge badge-room">07-627</span></td>
@@ -371,7 +558,14 @@ classes: wide
 
     <tr>
       <td class="num">07</td>
-      <td>July 8 2026</td>
+      <td><a class="date-chip" href="#" title="Add to calendar"
+            data-num="07" data-date="20260708"
+            data-title="TBA"
+            data-presenter="TBA"
+            onclick="downloadICS(this);return false;">
+        <div class="dc-month">Jul</div><div class="dc-day">8</div>
+        <div class="dc-wday">Wed</div><div class="dc-add">+ Cal</div>
+      </a></td>
       <td>
         <div class="topic-title">TBA</div>
         <div class="topic-sub"></div>
