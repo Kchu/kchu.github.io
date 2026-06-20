@@ -320,13 +320,13 @@ classes: wide
 
 <script>
 function downloadICS(el) {
-  var date      = el.dataset.date;      // "YYYYMMDD"
+  var date      = el.dataset.date;      /* YYYYMMDD */
   var num       = el.dataset.num  || '';
   var title     = el.dataset.title|| 'WTM World Model Seminar';
   var presenter = el.dataset.presenter || '';
 
-  var dtStart = date + "T120000Z";  // 14:00 CEST = 12:00 UTC
-  var dtEnd   = date + "T140000Z";  // 16:00 CEST = 14:00 UTC
+  var dtStart = date + "T120000Z";  /* 14:00 CEST = 12:00 UTC */
+  var dtEnd   = date + "T140000Z";  /* 16:00 CEST = 14:00 UTC */
 
   var summary = "WTM World Model Seminar #" + num +
                 (title && title !== "TBA" ? " – " + title : "");
@@ -361,6 +361,39 @@ function downloadICS(el) {
   a.click();
   document.body.removeChild(a);
 }
+
+/* Auto-gray past sessions + fill the "Next Session" card.
+   Same date comparison drives both: chips before today are "past",
+   the first chip on/after today is the next session.
+   NOTE: use block comments only — the site HTML is minified on build
+   (newlines stripped), which turns any // comment into a syntax error. */
+document.addEventListener("DOMContentLoaded", function () {
+  var months = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+  var wdays  = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
+
+  var today = new Date();
+  today.setHours(0, 0, 0, 0);
+
+  var next = null;
+  document.querySelectorAll(".date-chip").forEach(function (chip) {
+    var d = chip.dataset.date; /* YYYYMMDD */
+    if (!d) return;
+    var dt = new Date(+d.slice(0,4), +d.slice(4,6) - 1, +d.slice(6,8));
+    if (dt < today) {
+      chip.classList.add("date-chip-past");
+    } else {
+      chip.classList.remove("date-chip-past");
+      if (!next) next = dt;
+    }
+  });
+
+  var cal = document.getElementById("cal-next");
+  if (cal && next) {
+    cal.querySelector(".cal-month").textContent = months[next.getMonth()];
+    cal.querySelector(".cal-day").textContent   = next.getDate();
+    cal.querySelector(".cal-wday").textContent  = wdays[next.getDay()];
+  }
+});
 </script>
 
 <!-- ═══ HERO ═══ -->
@@ -389,7 +422,7 @@ function downloadICS(el) {
     </div>
     <div class="s-label">Next Session</div>
     <div class="s-value">
-      Wednesdays<br>
+      Wednesday<br>
       <small>[14:00 – 16:00 CEST]</small>
     </div>
   </div>
@@ -398,7 +431,7 @@ function downloadICS(el) {
     <div class="s-icon">📍</div>
     <div class="s-label">Where (In-Person)</div>
     <div class="s-value">
-      [House of Informatics]<br>
+      House of Informatics<br>
       <small>Bundesstr. 56b, 20146 Hamburg</small>
     </div>
   </div>
@@ -442,7 +475,7 @@ function downloadICS(el) {
 
     <tr>
       <td class="num">01</td>
-      <td><a class="date-chip date-chip-past" href="#" title="Add to calendar"
+      <td><a class="date-chip" href="#" title="Add to calendar"
             data-num="01" data-date="20260527"
             data-title="World Model for Robot Learning: A Comprehensive Survey"
             data-presenter="Parsa"
@@ -464,7 +497,7 @@ function downloadICS(el) {
 
     <tr>
       <td class="num">02</td>
-      <td><a class="date-chip date-chip-past" href="#" title="Add to calendar"
+      <td><a class="date-chip" href="#" title="Add to calendar"
             data-num="02" data-date="20260603"
             data-title="Unleashing Large-Scale Video Generative Pre-training for Visual Robot Manipulation"
             data-presenter="Mostafa"
@@ -486,7 +519,7 @@ function downloadICS(el) {
 
     <tr>
       <td class="num">03</td>
-      <td><a class="date-chip date-chip-past" href="#" title="Add to calendar"
+      <td><a class="date-chip" href="#" title="Add to calendar"
             data-num="03" data-date="20260610"
             data-title="World Model as Simulator"
             data-presenter="Thomas"

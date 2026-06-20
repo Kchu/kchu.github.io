@@ -17,47 +17,4 @@
 </script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script>
 
-<!-- Seminar: live calendar icon showing the next session date -->
-<script>
-function initSeminarCal() {
-  var el = document.getElementById('cal-next');
-  if (!el) return;
-
-  var months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
-  var wdays  = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
-  var today  = new Date(); today.setHours(0, 0, 0, 0);
-
-  /* Prefer the real schedule: take the soonest date in the table that is today or later. */
-  var next = null;
-  var rows = document.querySelectorAll('.sem-table tbody tr');
-  rows.forEach(function (tr) {
-    var cell = tr.children[1];
-    if (!cell) return;
-    var raw = cell.textContent.replace(/[\[\]]/g, '').trim();
-    var d = new Date(raw);
-    if (!isNaN(d.getTime())) {
-      d.setHours(0, 0, 0, 0);
-      if (d >= today && (next === null || d < next)) next = d;
-    }
-  });
-
-  /* Fallback: next Wednesday from today. */
-  if (next === null) {
-    next = new Date(today);
-    next.setDate(next.getDate() + ((3 - next.getDay() + 7) % 7));
-  }
-
-  el.querySelector('.cal-month').textContent = months[next.getMonth()];
-  el.querySelector('.cal-day').textContent   = next.getDate();
-  el.querySelector('.cal-wday').textContent  = wdays[next.getDay()];
-}
-
-/* Run now if the DOM is already parsed, otherwise wait for it. */
-if (document.readyState === 'loading') {
-  document.addEventListener('DOMContentLoaded', initSeminarCal);
-} else {
-  initSeminarCal();
-}
-</script>
-
 <!-- end custom head snippets -->
