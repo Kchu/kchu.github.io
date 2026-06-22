@@ -617,7 +617,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <div class="topic-title">TBA</div>
         <div class="topic-sub"></div>
       </td>
-      <td class="Presenter">TBA</td>
+      <td class="Presenter">Asihati</td>
       <td><span class="badge badge-room">07-627</span></td>
     </tr>
 
