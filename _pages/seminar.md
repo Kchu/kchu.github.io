@@ -247,7 +247,51 @@ classes: wide
   line-height: 1.75;
   color: #333;
 }
-.sem-about p { margin: 0; }
+.sem-about p { margin: 0 0 1rem; }
+.sem-about p:last-child { margin-bottom: 0; }
+
+/* ── Feynman highlight callout ── */
+.feynman-box {
+  display: flex;
+  gap: 1.1rem;
+  align-items: flex-start;
+  background: linear-gradient(135deg, #fffaf0 0%, #fff3da 100%);
+  border: 1px solid #f0d9a8;
+  border-left: 5px solid #e8a317;
+  border-radius: 8px;
+  padding: 1.3rem 1.6rem;
+  margin: 1.4rem 0;
+  line-height: 1.7;
+  color: #4a3a16;
+}
+.feynman-box .fb-icon {
+  font-size: 2rem;
+  line-height: 1;
+  flex-shrink: 0;
+}
+.feynman-box .fb-body { font-size: 1.05rem; }
+.feynman-box .fb-title {
+  font-weight: 700;
+  font-size: 1.12rem;
+  color: #9a6a00;
+  margin: 0 0 0.35rem;
+}
+.feynman-box strong { color: #9a6a00; }
+.feynman-box .fb-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.7rem;
+}
+.feynman-box .fb-tag {
+  background: #fff;
+  border: 1px solid #ead9b0;
+  border-radius: 20px;
+  padding: 0.18rem 0.7rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #8a6400;
+}
 
 /* ── Clickable date chip (table) ── */
 .date-chip {
@@ -347,7 +391,7 @@ function downloadICS(el) {
     "DTEND:" + dtEnd,
     "SUMMARY:" + summary,
     "DESCRIPTION:" + desc,
-    "LOCATION:House of Informatics\\, Bundesstr. 56b\\, 20146 Hamburg (Room 07-627)",
+    "LOCATION:House of Informatics\\, Bundesstr. 56b\\, 20146 Hamburg (Room 05-627)",
     "URL:https://uni-hamburg.zoom.us/j/62688965566",
     "END:VEVENT",
     "END:VCALENDAR"
@@ -423,7 +467,7 @@ document.addEventListener("DOMContentLoaded", function () {
     <div class="s-label">Next Session</div>
     <div class="s-value">
       Wednesday<br>
-      <small>[14:00 – 16:00 CEST]</small>
+      <small>14:00 – 16:00 CEST</small>
     </div>
   </div>
 
@@ -449,12 +493,36 @@ document.addEventListener("DOMContentLoaded", function () {
 <div class="sem-section-title">About the Seminar</div>
 <div class="sem-about">
   <p>
-    The <strong>WTM World Model Seminar</strong> is an internal research seminar organized by the
+    The <strong>WTM World Model Seminar</strong> is an internal research seminar of the
     <a href="https://www.inf.uni-hamburg.de/en/inst/ab/wtm.html" target="_blank">Knowledge Technology (WTM) group</a>
-    at the University of Hamburg. Each session features a presentation and discussion on recent advances
-    in world models — including their applications to planning, perception, reinforcement learning,
-    and robotic control. The seminar is open to all members of the WTM group and interested researchers.
-    Both in-person attendance (Hamburg) and remote participation via Zoom are welcome.
+    at the University of Hamburg. Each session presents and discusses recent advances in world models —
+    spanning planning, perception, reinforcement learning, and robotic control. Open to all; join in
+    person (Hamburg) or via Zoom.
+  </p>
+  <p>
+    Both <strong>presenting and attending</strong> are encouraged — an open space to exchange ideas,
+    discuss ongoing work, and learn from each other.
+  </p>
+
+  <div class="feynman-box">
+    <div class="fb-icon">💡</div>
+    <div class="fb-body">
+      <div class="fb-title">In the spirit of the Feynman learning technique</div>
+      Explaining a topic to others is one of the best ways to deepen your own understanding. No
+      <strong>“perfect” or finished result</strong> needed — bring whatever you're working on:
+      <div class="fb-tags">
+        <span class="fb-tag">Work-in-progress</span>
+        <span class="fb-tag">Preliminary results</span>
+        <span class="fb-tag">Paper discussions</span>
+        <span class="fb-tag">Technical questions</span>
+        <span class="fb-tag">Research challenges</span>
+      </div>
+    </div>
+  </div>
+
+  <p>
+    Let's think together, ask questions, and sharpen our ideas. Feel free to forward this invitation to
+    anyone interested.
   </p>
 </div>
 
@@ -492,7 +560,7 @@ document.addEventListener("DOMContentLoaded", function () {
         </div>
       </td>
       <td class="Presenter">Parsa</td>
-      <td><span class="badge badge-room">07-627</span></td>
+      <td><span class="badge badge-room">05-627</span></td>
     </tr>
 
     <tr>
@@ -514,7 +582,7 @@ document.addEventListener("DOMContentLoaded", function () {
         </div>
       </td>
       <td class="Presenter">Mostafa</td>
-      <td><span class="badge badge-room">07-627</span></td>
+      <td><span class="badge badge-room">05-627</span></td>
     </tr>
 
     <tr>
@@ -536,7 +604,7 @@ document.addEventListener("DOMContentLoaded", function () {
         </div>
       </td>
       <td class="Presenter">Thomas</td>
-      <td><span class="badge badge-room">07-627</span></td>
+      <td><span class="badge badge-room">05-627</span></td>
     </tr>
 
     <tr>
@@ -558,7 +626,7 @@ document.addEventListener("DOMContentLoaded", function () {
         </div>
       </td>
       <td class="Presenter">Kun</td>
-      <td><span class="badge badge-room">07-627</span></td>
+      <td><span class="badge badge-room">05-627</span></td>
     </tr>
 
     <tr>
@@ -576,10 +644,11 @@ document.addEventListener("DOMContentLoaded", function () {
         <div class="topic-sub"></div>
         <div class="topic-links">
           <a class="presentation paper" href="https://latentactionpretraining.github.io/" target="_blank">Paper</a>
+          <a class="presentation" href="/files/WTM_WM_Seminar_Presentation_5.pdf" target="_blank">Slides</a>
         </div>
       </td>
       <td class="Presenter">Parsa</td>
-      <td><span class="badge badge-room">07-627</span></td>
+      <td><span class="badge badge-room">05-627</span></td>
     </tr>
 
     <tr>
@@ -600,7 +669,7 @@ document.addEventListener("DOMContentLoaded", function () {
         </div>
       </td>
       <td class="Presenter">Mostafa</td>
-      <td><span class="badge badge-room">07-627</span></td>
+      <td><span class="badge badge-room">05-627</span></td>
     </tr>
 
     <tr>
@@ -617,8 +686,26 @@ document.addEventListener("DOMContentLoaded", function () {
         <div class="topic-title">TBA</div>
         <div class="topic-sub"></div>
       </td>
+      <td class="Presenter">Connor</td>
+      <td><span class="badge badge-room">05-627</span></td>
+    </tr>
+
+    <tr>
+      <td class="num">08</td>
+      <td><a class="date-chip" href="#" title="Add to calendar"
+            data-num="08" data-date="20260715"
+            data-title="TBA"
+            data-presenter="TBA"
+            onclick="downloadICS(this);return false;">
+        <div class="dc-month">Jul</div><div class="dc-day">15</div>
+        <div class="dc-wday">Wed</div><div class="dc-add">+ Cal</div>
+      </a></td>
+      <td>
+        <div class="topic-title">TBA</div>
+        <div class="topic-sub"></div>
+      </td>
       <td class="Presenter">Asihati</td>
-      <td><span class="badge badge-room">07-627</span></td>
+      <td><span class="badge badge-room">05-627</span></td>
     </tr>
 
     <!-- ── Add more rows by copying the block above ── -->
