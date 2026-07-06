@@ -9,7 +9,8 @@ classes: wide
 <style>
 /* ── Width override (this page only) ── */
 #main {
-  max-width: 80%;
+  width: min(100%, 1180px);
+  max-width: calc(100% - 2rem);
 }
 .page {
   width: 100%;
@@ -177,6 +178,7 @@ classes: wide
 .sem-table .topic-title a { color: #0b4f6c; text-decoration: underline; }
 .sem-table .topic-title a:hover { color: #0a6e5f; }
 .sem-table .topic-sub  { font-size: 0.9rem; color: #555; margin-top: 0.2rem; }
+.sem-table td:nth-child(3) { min-width: 18rem; }
 
 /* ── Presentation download link ── */
 .presentation {
@@ -360,6 +362,194 @@ classes: wide
 .date-chip-past .dc-wday  { color: #bbb; }
 .date-chip-past .dc-add   { background: #f0f0f0; color: #aaa; }
 .date-chip-past:hover .dc-add { background: #888; color: #fff; }
+
+@media (max-width: 900px) {
+  #main {
+    max-width: 100%;
+    padding-left: 0.9rem;
+    padding-right: 0.9rem;
+  }
+
+  .page {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .sem-hero {
+    padding: 2rem 1.1rem 1.8rem;
+    border-radius: 8px;
+    margin-bottom: 1.4rem;
+  }
+
+  .sem-hero img {
+    width: min(58vw, 190px) !important;
+    height: auto !important;
+    padding: 10px !important;
+    margin-bottom: 0.9rem !important;
+  }
+
+  .sem-hero .eyebrow {
+    font-size: 0.74rem;
+    line-height: 1.5;
+    letter-spacing: 0.07em;
+  }
+
+  .sem-hero h1 {
+    font-size: clamp(1.7rem, 9vw, 2.25rem);
+    line-height: 1.08;
+  }
+
+  .sem-hero .tagline {
+    font-size: 1rem;
+    line-height: 1.55;
+  }
+
+  .sem-cards {
+    grid-template-columns: 1fr;
+    gap: 0.9rem;
+    margin-bottom: 1.6rem;
+  }
+
+  .sem-card {
+    padding: 1.2rem 1rem;
+  }
+
+  .sem-card .s-value {
+    font-size: 1.03rem;
+  }
+
+  .sem-about,
+  .sem-notice {
+    padding: 1rem;
+    font-size: 0.98rem;
+  }
+
+  .feynman-box {
+    gap: 0.75rem;
+    padding: 1rem;
+  }
+
+  .feynman-box .fb-icon {
+    font-size: 1.45rem;
+  }
+
+  .feynman-box .fb-body {
+    font-size: 0.98rem;
+  }
+
+  .sem-section-title {
+    font-size: 1.25rem;
+    margin-top: 1.7rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .sem-table,
+  .sem-table thead,
+  .sem-table tbody,
+  .sem-table tr,
+  .sem-table th,
+  .sem-table td {
+    display: block;
+    width: 100%;
+  }
+
+  .sem-table {
+    border: 0;
+    font-size: 0.98rem;
+  }
+
+  .sem-table thead {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+  }
+
+  .sem-table tbody tr {
+    margin: 0 0 1rem;
+    border: 1px solid #dfe7ee;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #fff;
+  }
+
+  .sem-table tbody tr:nth-child(even) td,
+  .sem-table tbody tr:hover td {
+    background: transparent;
+  }
+
+  .sem-table tbody td {
+    display: grid;
+    grid-template-columns: 5.5rem minmax(0, 1fr);
+    align-items: start;
+    gap: 0.75rem;
+    padding: 0.75rem 0.85rem;
+    border-right: 0;
+  }
+
+  .sem-table tbody td::before {
+    color: #66727d;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    line-height: 1.4;
+  }
+
+  .sem-table tbody td:nth-child(1)::before { content: "Session"; }
+  .sem-table tbody td:nth-child(2)::before { content: "Date"; }
+  .sem-table tbody td:nth-child(3)::before { content: "Topic"; }
+  .sem-table tbody td:nth-child(4)::before { content: "Presenter"; }
+  .sem-table tbody td:nth-child(5)::before { content: "Room"; }
+
+  .sem-table td:nth-child(3) {
+    min-width: 0;
+  }
+
+  .sem-table .num {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #0b4f6c;
+  }
+
+  .topic-links {
+    gap: 0.35rem;
+  }
+
+  .presentation {
+    max-width: 100%;
+    white-space: normal;
+  }
+}
+
+@media (max-width: 420px) {
+  #main {
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+  }
+
+  .sem-hero {
+    padding-left: 0.85rem;
+    padding-right: 0.85rem;
+  }
+
+  .sem-table tbody td {
+    grid-template-columns: 4.8rem minmax(0, 1fr);
+    gap: 0.55rem;
+    padding: 0.7rem;
+  }
+
+  .feynman-box {
+    display: block;
+  }
+
+  .feynman-box .fb-icon {
+    margin-bottom: 0.45rem;
+  }
+}
 </style>
 
 <script>
@@ -666,6 +856,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <div class="topic-sub"></div>
         <div class="topic-links">
           <a class="presentation paper" href="https://nimolty.github.io/Seer/" target="_blank">Paper</a>
+          <a class="presentation" href="/files/WTM_WM_Seminar_Presentation_6.pdf" target="_blank">Slides</a>
         </div>
       </td>
       <td class="Presenter">Mostafa</td>
@@ -705,6 +896,42 @@ document.addEventListener("DOMContentLoaded", function () {
         <div class="topic-sub"></div>
       </td>
       <td class="Presenter">Asihati</td>
+      <td><span class="badge badge-room">05-627</span></td>
+    </tr>
+
+    <tr>
+      <td class="num">09</td>
+      <td><a class="date-chip" href="#" title="Add to calendar"
+            data-num="08" data-date="20260722"
+            data-title="TBA"
+            data-presenter="TBA"
+            onclick="downloadICS(this);return false;">
+        <div class="dc-month">Jul</div><div class="dc-day">22</div>
+        <div class="dc-wday">Wed</div><div class="dc-add">+ Cal</div>
+      </a></td>
+      <td>
+        <div class="topic-title">TBA</div>
+        <div class="topic-sub"></div>
+      </td>
+      <td class="Presenter">TBA</td>
+      <td><span class="badge badge-room">05-627</span></td>
+    </tr>
+
+    <tr>
+      <td class="num">10</td>
+      <td><a class="date-chip" href="#" title="Add to calendar"
+            data-num="08" data-date="20260729"
+            data-title="TBA"
+            data-presenter="TBA"
+            onclick="downloadICS(this);return false;">
+        <div class="dc-month">Jul</div><div class="dc-day">29</div>
+        <div class="dc-wday">Wed</div><div class="dc-add">+ Cal</div>
+      </a></td>
+      <td>
+        <div class="topic-title">TBA</div>
+        <div class="topic-sub"></div>
+      </td>
+      <td class="Presenter">TBA</td>
       <td><span class="badge badge-room">05-627</span></td>
     </tr>
 
