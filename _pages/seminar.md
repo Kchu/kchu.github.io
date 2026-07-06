@@ -9,7 +9,7 @@ classes: wide
 <style>
 /* ── Width override (this page only) ── */
 #main {
-  width: min(100%, 1180px);
+  width: min(100%, 1440px);
   max-width: calc(100% - 2rem);
 }
 .page {
@@ -17,7 +17,7 @@ classes: wide
   padding-right: 0 !important;
 }
 @media (min-width: 80em) {
-  #main { max-width: 80%; }
+  #main { max-width: calc(100% - 2rem); }
 }
 
 /* ── Hero ── */
