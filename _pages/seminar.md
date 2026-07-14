@@ -910,20 +910,20 @@ document.addEventListener("DOMContentLoaded", function () {
     <tr>
       <td class="num">09</td>
       <td><a class="date-chip" href="#" title="Add to calendar"
-            data-num="09" data-date="20260722"
+            data-num="09" data-date="20260729"
             data-title="Physically Native World Models: A Hamiltonian  Perspective on Generative World Modeling"
             data-presenter="Kun"
             onclick="downloadICS(this);return false;">
-        <div class="dc-month">Jul</div><div class="dc-day">22</div>
+        <div class="dc-month">Jul</div><div class="dc-day">29</div>
         <div class="dc-wday">Wed</div><div class="dc-add">+ Cal</div>
       </a></td>
       <td>
         <div class="topic-title">Physically Native World Models: A Hamiltonian  Perspective on Generative World Modeling</div>
         <div class="topic-sub"></div>
-        <div class="topic-links">
-        <a class="presentation paper" href="https://arxiv.org/abs/2605.00412" target="_blank">Paper</a>
-        <a class="presentation" href="" target="_blank">Slides</a>
-        </div>
+        <!-- <div class="topic-links">
+          <a class="presentation paper" href="" target="_blank">Paper</a>
+          <a class="presentation" href="" target="_blank">Slides</a>
+        </div> -->
       </td>
       <td class="Presenter">Kun</td>
       <td><span class="badge badge-room">05-627</span></td>
@@ -932,11 +932,11 @@ document.addEventListener("DOMContentLoaded", function () {
     <tr>
       <td class="num">10</td>
       <td><a class="date-chip" href="#" title="Add to calendar"
-            data-num="10" data-date="20260729"
+            data-num="10" data-date="20260805"
             data-title="TBA"
             data-presenter="TBA"
             onclick="downloadICS(this);return false;">
-        <div class="dc-month">Jul</div><div class="dc-day">29</div>
+        <div class="dc-month">Aug</div><div class="dc-day">05</div>
         <div class="dc-wday">Wed</div><div class="dc-add">+ Cal</div>
       </a></td>
       <td>
@@ -954,11 +954,11 @@ document.addEventListener("DOMContentLoaded", function () {
     <tr>
       <td class="num">11</td>
       <td><a class="date-chip" href="#" title="Add to calendar"
-            data-num="11" data-date="20260805"
+            data-num="11" data-date="20260812"
             data-title="TBA"
             data-presenter="TBA"
             onclick="downloadICS(this);return false;">
-        <div class="dc-month">Aug</div><div class="dc-day">05</div>
+        <div class="dc-month">Aug</div><div class="dc-day">12</div>
         <div class="dc-wday">Wed</div><div class="dc-add">+ Cal</div>
       </a></td>
       <td>
