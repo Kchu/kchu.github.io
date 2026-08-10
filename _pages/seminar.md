@@ -910,11 +910,11 @@ document.addEventListener("DOMContentLoaded", function () {
     <tr>
       <td class="num">09</td>
       <td><a class="date-chip" href="#" title="Add to calendar"
-            data-num="09" data-date="20260729"
+            data-num="09" data-date="20260923"
             data-title="Physically Native World Models: A Hamiltonian  Perspective on Generative World Modeling"
             data-presenter="Kun"
             onclick="downloadICS(this);return false;">
-        <div class="dc-month">Jul</div><div class="dc-day">29</div>
+        <div class="dc-month">Sep</div><div class="dc-day">23</div>
         <div class="dc-wday">Wed</div><div class="dc-add">+ Cal</div>
       </a></td>
       <td>
@@ -932,11 +932,11 @@ document.addEventListener("DOMContentLoaded", function () {
     <tr>
       <td class="num">10</td>
       <td><a class="date-chip" href="#" title="Add to calendar"
-            data-num="10" data-date="20260805"
+            data-num="10" data-date=""
             data-title="TBA"
             data-presenter="TBA"
             onclick="downloadICS(this);return false;">
-        <div class="dc-month">Aug</div><div class="dc-day">05</div>
+        <div class="dc-month">Oct</div><div class="dc-day"></div>
         <div class="dc-wday">Wed</div><div class="dc-add">+ Cal</div>
       </a></td>
       <td>
@@ -951,14 +951,14 @@ document.addEventListener("DOMContentLoaded", function () {
       <td><span class="badge badge-room">05-627</span></td>
     </tr>
 
-    <tr>
-      <td class="num">11</td>
+        <tr>
+      <td class="num">10</td>
       <td><a class="date-chip" href="#" title="Add to calendar"
-            data-num="11" data-date="20260812"
+            data-num="10" data-date=""
             data-title="TBA"
             data-presenter="TBA"
             onclick="downloadICS(this);return false;">
-        <div class="dc-month">Aug</div><div class="dc-day">12</div>
+        <div class="dc-month">Oct</div><div class="dc-day"></div>
         <div class="dc-wday">Wed</div><div class="dc-add">+ Cal</div>
       </a></td>
       <td>
