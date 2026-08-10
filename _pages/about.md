@@ -26,31 +26,65 @@ The Future of Embodied Intelligence is Now.
 # All about world models
 In May 2026, I initiated the [WTM World Model Seminar](https://kchu.github.io/seminar/), an ongoing seminar series in our group where colleagues present and discuss the latest work on world models, share ideas across projects, and explore how these advances can inform our own research. Anyone interested in world models is warmly welcome to join us — feel free to reach out or simply drop by!
 
-# All about experience
+# All about news
 
-[2026.01] Our paper, RankCut: A Ranking-Based LLM Approach to Extractive Summarization for Transcript-Based Video Editing, has been accepted to [IUI 2026](https://iui.acm.org/2026/). This project was co-supervised with the Adobe Research team. Congrats, Sana!
+🔥 **[2026.03]** I was honored to take part as an invited participant in NII Shonan Meeting Seminar No.235, [LLM-guided Synthesis, Verification, and Testing of Learning-Enabled CPS](https://shonan.nii.ac.jp/seminars/235/), held this March at the Shonan Village Center in Japan.
 
-[2026.01] I'm honored to be an invited participant at NII Shonan Meeting Seminar No.235, [LLM-guided Synthesis, Verification, and Testing of Learning-Enabled CPS](https://shonan.nii.ac.jp/seminars/235/). See you in Tokyo, Japan this March!
+🔥 **[2026.01]** Our paper, RankCut: A Ranking-Based LLM Approach to Extractive Summarization for Transcript-Based Video Editing, has been accepted to [IUI 2026](https://iui.acm.org/2026/). This project was co-supervised with the Adobe Research team. Congrats, Sana!
 
-[2025.10] I'm serving as the reviewer of [ICRA 2026](https://2026.ieee-icra.org/) and [IUI 2026](https://iui.acm.org/2026/).
+**[2025.05]** I'm honored to attend [IJCNN 2025](https://2025.ijcnn.org/) this July in Rome, thanks to the generous support of the [IEEE CIS Travel Grant](https://cis.ieee.org/activities/membership-activities/travel-grants). Looking forward to seeing you there!
 
-[2025.05] I'm honored to attend [IJCNN 2025](https://2025.ijcnn.org/) this July in Rome, thanks to the generous support of the [IEEE CIS Travel Grant](https://cis.ieee.org/activities/membership-activities/travel-grants). Looking forward to seeing you there!
+**[2025.04]** Our paper, LLM-iTeach: LLM-based Interactive Imitation Learning for Robotic Manipulation, has been accepted for an oral presentation at [IJCNN 2025](https://2025.ijcnn.org/)! This work was led by Jonas under my supervision. Congrats, Jonas!
 
-[2025.04] Our paper, LLM-iTeach: LLM-based Interactive Imitation Learning for Robotic Manipulation, has been accepted for an oral presentation at [IJCNN 2025](https://2025.ijcnn.org/)! This work was led by Jonas under my supervision. Congrats, Jonas!
+**[2025.03]** Our paper, LLM+MAP: Bimanual Robot Task Planning using Large Language Models and Planning Domain Definition Language, is now available online on [arXiv](https://arxiv.org/abs/2503.17309). Please check the video as well on [Youtube](https://youtu.be/i2j1WyNaBa8?si=NpHR0C8QjHB_cMdg).
 
-[2025.03] Our paper, LLM+MAP: Bimanual Robot Task Planning using Large Language Models and Planning Domain Definition Language, is now available online on [arXiv](https://arxiv.org/abs/2503.17309). Please check the video as well on [Youtube](https://youtu.be/i2j1WyNaBa8?si=NpHR0C8QjHB_cMdg).
+<details markdown="1" style="margin-bottom: 3em;">
+<summary><b>Earlier news (2023–2024)</b> — click to expand</summary>
 
-[2024.10] We have open-sourced the code for the LABOR Agent on [Github](https://github.com/Kchu/LABOR-Agent).
+**[2024.10]** We have open-sourced the code for the LABOR Agent on [Github](https://github.com/Kchu/LABOR-Agent).
 
-[2024.09] Our paper [Large Language Models for Orchestrating Bimanual Robots](https://labor-agent.github.io/) has been accepted by [Humanoids 2024](https://2024.ieee-humanoids.org/). See you in Nancy, France in November!
+**[2024.09]** Our paper [Large Language Models for Orchestrating Bimanual Robots](https://labor-agent.github.io/) has been accepted by [Humanoids 2024](https://2024.ieee-humanoids.org/). See you in Nancy, France in November!
 
-[2024.07] Our application to [Researcher Access Program of OpenAI](https://openai.com/form/researcher-access-program/) has been accepted and we have been awarded 5000 USD in API credits!
+**[2024.07]** Our application to [Researcher Access Program of OpenAI](https://openai.com/form/researcher-access-program/) has been accepted and we have been awarded 5000 USD in API credits!
 
-[2024.02] I am glad to be served as technical committee member of the 2024 IEEE International Conference on
+**[2024.02]** I am glad to be served as technical committee member of the 2024 IEEE International Conference on
 Robotics and Automation (ICRA 2024) [Workshop on Human-aligned Reinforcement Learning for Autonomous Agents and Robots](https://harlworkshop.github.io/index.html).
 
-[2024.02] Our paper Enhancing Zero-Shot Chain-of-Thought Reasoning in Large Language Models through Logic has been accepted at [COLING 2024](https://lrec-coling-2024.org/).
+**[2024.02]** Our paper Enhancing Zero-Shot Chain-of-Thought Reasoning in Large Language Models through Logic has been accepted at [COLING 2024](https://lrec-coling-2024.org/).
 
-[2023.11] Our paper Accelerating Reinforcement Learning of Robotic Manipulations via Feedback from Large Language Models has been accepted as oral presentation at the 7th Conference on Robot Learning (CoRL 2023) [Workshop on Bridging the Gap between Cognitive Science and Robot Learning in the Real World: Progresses and New Directions](https://yantianzha.github.io/crl.github.io/).
+**[2023.11]** Our paper Accelerating Reinforcement Learning of Robotic Manipulations via Feedback from Large Language Models has been accepted as oral presentation at the 7th Conference on Robot Learning (CoRL 2023) [Workshop on Bridging the Gap between Cognitive Science and Robot Learning in the Real World: Progresses and New Directions](https://yantianzha.github.io/crl.github.io/).
+
+</details>
+
+
+# All about academic service
+
+## Journal Reviewer
+
+- [Robotics and Autonomous Systems](https://www.sciencedirect.com/journal/robotics-and-autonomous-systems) (Elsevier)
+- [Robotics and Computer-Integrated Manufacturing](https://www.sciencedirect.com/journal/robotics-and-computer-integrated-manufacturing) (Elsevier)
+- [Industrial Robot: the International Journal of Robotics Research and Application](https://www.emerald.com/ir) (Emerald)
+
+## Conference Reviewer
+
+- IROS, ICRA, Humanoids
+- IUI, IJCNN
+- EAI MobiQuitous
+
+## Technical Program Committee Member
+
+- [EAI MobiQuitous 2026](https://mobiquitous.eai-conferences.org/2026/)
+- ICRA 2024 [Workshop on Human-aligned Reinforcement Learning for Autonomous Agents and Robots](https://harlworkshop.github.io/index.html)
+
+
+# All about my students
+
+It is a privilege to work with these talented students. Their projects span the topics I care about most — agentic systems, world models, and robot learning.
+
+- Sana — RankCut: Extractive Summarization for Transcript-Based Video Editing (IUI 2026, co-supervised with Adobe Research)
+- Jonas — LLM-iTeach: Interactive Imitation Learning for Robotic Manipulation (IJCNN 2025, oral)
+- Yue & Jingfan — Agentic LLM systems for education: structured learner modeling and grounded generation (in preparation)
+- Aamir — LLM+PDDL for abstractive world models in dynamic environments (in preparation)
+- Asihati — World models for whole-body control on humanoid robots (in preparation)
 
 Glad to discuss anything! Please contact me at kun.chu at uni-hamburg dot de
