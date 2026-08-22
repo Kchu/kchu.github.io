@@ -80,7 +80,7 @@ It is a privilege to work with these talented students. Their projects span the 
 
 - Sana — RankCut: Extractive Summarization for Transcript-Based Video Editing (IUI 2026, co-supervised with Adobe Research)
 - Jonas — LLM-iTeach: Interactive Imitation Learning for Robotic Manipulation (IJCNN 2025, oral)
-- Yue & Jingfan — Agentic LLM systems for education: structured learner modeling and grounded generation (in preparation)
+- Yue & Jingfan — Agentic LLM systems for education: structured learner modeling and authoritative grounding (under review)
 - Aamir — LLM+PDDL for abstractive world models in dynamic environments (in preparation)
 - Asihati — World models for whole-body control of humanoid robots (in preparation)
 
