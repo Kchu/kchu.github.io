@@ -13,13 +13,11 @@ PhD student in Computer Science, University of Hamburg, [Knowledge Technology (W
 
 B.E. in Spatial Information and Digital Technology, [University of Electronic Science and Technology of China](https://en.uestc.edu.cn/), advised by [Prof. Fen Chen](https://scholar.google.com/citations?hl=zh-CN&user=U0VZ1IkAAAAJ). -->
 
-I am deeply interested in the critical methodologies driving Embodied Intelligence, particularly Reinforcement Learning, Large Language Models (LLMs), and Robotics. In humanoid robot development, three key components shape their capabilities: the Brain, the Cerebellum, and the Body. My current research focuses on two of these aspects:
+I build algorithmic frameworks for Embodied Intelligence, spanning agentic AI, reinforcement learning, and physics-aware world models. In humanoid robotics, I work on two complementary levels to bridge cognition and control:
 
-- **Brain** – Leveraging LLMs for planning in long-horizon bimanual robotic tasks.
+- **Brain** – Agentic AI for task reasoning, long-horizon planning, and tool use in bimanual manipulation.
 
-- **Cerebellum** – Developing bimanual manipulation skills using foundation models.
-
-Through my work, I aim to bridge high-level reasoning and planning with low-level motion control, pushing the boundaries of intelligent robotic systems.
+- **Cerebellum** – Generalizable low-level skills for bimanual manipulation and mobile grasping, driven by physics-aware world models.
 
 The Future of Embodied Intelligence is Now.
 
