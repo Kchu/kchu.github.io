@@ -26,9 +26,11 @@ In May 2026, I initiated the [WTM World Model Seminar](https://kchu.github.io/se
 
 # All about news
 
+🔥 **[2026.09]** I have been invited to participate in [Dagstuhl Seminar 26421: Advancing Testability and Verifiability of CPS with Neurosymbolic and Large Language Models](https://www.dagstuhl.de/seminars/seminar-calendar/seminar-details/26421), to be held at Schloss Dagstuhl, Germany, in October 2026.
+
 🔥 **[2026.03]** I was honored to take part as an invited participant in NII Shonan Meeting Seminar No.235, [LLM-guided Synthesis, Verification, and Testing of Learning-Enabled CPS](https://shonan.nii.ac.jp/seminars/235/), held at the Shonan Village Center in Japan.
 
-🔥 **[2026.01]** Our paper, RankCut: A Ranking-Based LLM Approach to Extractive Summarization for Transcript-Based Video Editing, has been accepted to [IUI 2026](https://iui.acm.org/2026/). This project was co-supervised with the Adobe Research team. Congrats, Sana!
+[2026.01] Our paper, RankCut: A Ranking-Based LLM Approach to Extractive Summarization for Transcript-Based Video Editing, has been accepted to [IUI 2026](https://iui.acm.org/2026/). This project was co-supervised with the Adobe Research team. Congrats, Sana!
 
 **[2025.05]** I was honored to attend [IJCNN 2025](https://2025.ijcnn.org/) in Rome, thanks to the generous support of the [IEEE CIS Travel Grant](https://cis.ieee.org/activities/membership-activities/travel-grants).
 
